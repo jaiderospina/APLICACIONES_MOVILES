@@ -11,3 +11,7 @@ Además de su impacto comercial, el mercado móvil tiene una alta relevancia en 
 Desde una perspectiva tecnológica, el sistema operativo Android ha sido fundamental en la expansión de este mercado debido a su diseño basado en aplicaciones y su licencia libre (Apache y GNU GPL), lo que ha permitido que múltiples compañías de electrónica lo adopten para sus dispositivos. Esta versatilidad ha llevado a las aplicaciones móviles más allá de los teléfonos, alcanzando videoconsolas, televisores, relojes y automóviles.
 
 Finalmente, la estructura técnica que sostiene este mercado implica una topología donde las aplicaciones móviles interactúan con servidores, bases de datos y sistemas de almacenamiento para funcionar. Las aplicaciones se distribuyen mediante archivos .APK, que empaquetan el código (Java), los recursos visuales y el manifiesto de configuración, permitiendo una experiencia de usuario rica e interactiva a través de componentes llamados Activities
+
+**Referencias**
+
+- https://developer.android.com/?hl=es-419
