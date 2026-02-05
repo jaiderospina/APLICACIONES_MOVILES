@@ -7,7 +7,7 @@ Realizar un proceso de **ingeniería inversa** sobre una aplicación Android exi
 ### 👥 Formato de Trabajo
 
 * **Grupos:** 3 estudiantes.
-* **Duración sugerida:** 1 a 2 sesiones de laboratorio.
+* **Duración sugerida:** 1 sesión de laboratorio.
 * **Entregable:** Repositorio de GitHub con el código fuente y un `README.md` exhaustivo.
 
 ---
@@ -40,9 +40,7 @@ El `README.md` no debe ser solo texto; debe ser el centro de mando del proyecto.
 
 3. **Buenas Prácticas de Ingeniería:**
 * **Guía de Estilo:** Convenciones de nombres utilizadas.
-* **Estrategia de Branching:** Explicar qué modelo de Git (GitFlow o Trunk Based) se adaptaría mejor a este proyecto.
 * **Seguridad:** Análisis de permisos en el `AndroidManifest.xml` y posibles vulnerabilidades halladas.
-
 
 
 ---
@@ -54,8 +52,8 @@ Para que el repositorio sea considerado "enriquecido", deben cumplir con lo sigu
 * **Uso de Issues:** Deben crear al menos 6 *Issues* que representen "hallazgos" o mejoras detectadas durante la ingeniería inversa.
 * **Pull Requests (PRs):** La documentación del README debe hacerse mediante PRs cruzados. Un estudiante escribe una sección y otro la revisa y aprueba (uso de *Code Review*).
 * **Recursos Visuales:** Uso de insignias (Badges), capturas de pantalla de la app y diagramas en formato Mermaid o imágenes.
-* **Wiki o Proyectos:** (Opcional) Uso de *GitHub Projects* para organizar las tareas de reconstrucción.
 
----
+
+
 
 
