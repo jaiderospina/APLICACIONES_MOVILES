@@ -1,1 +1,11 @@
+Organización y Estructura Jerárquica
 
+El código utiliza una estructura de LinearLayout anidados de manera lógica y eficiente. 
+La elección de un contenedor raíz vertical con subcontenedores horizontales para cada fila de producto facilita la lectura tanto para el desarrollador como para el sistema de renderizado de Android.
+
+Usabilidad y Experiencia de Usuario (UX)
+
+El diseño incluye elementos que mejoran significativamente la interacción con el usuario:
+•	InputType Específico: Los campos EditText usan android:inputType="numberSigned", lo que despliega automáticamente el teclado numérico, ahorrando tiempo al usuario.
+•	Indicaciones Visuales: El uso de android:hint proporciona una guía clara sobre qué debe escribir el usuario sin ocupar espacio permanentemente.
+•	Desplazamiento: La inclusión de un ScrollView para los resultados previene que la interfaz se rompa o que la información sea inaccesible en pantallas pequeñas o cuando los datos son extensos.
