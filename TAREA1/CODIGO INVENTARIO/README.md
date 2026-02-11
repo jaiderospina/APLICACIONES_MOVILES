@@ -1,13 +1,6 @@
-INTRODUCCIÓN A ANDROID STUDIO
+# Propósito del Proyecto
 
-Android Studio es el entorno de desarrollo integrado (IDE) oficial para la creación de aplicaciones en el sistema operativo Android. Fue desarrollado por Google y está basado en IntelliJ IDEA, lo que le proporciona una interfaz moderna, herramientas avanzadas de programación y un entorno optimizado para facilitar el desarrollo de aplicaciones móviles.
-
-Este entorno ofrece todo lo necesario para diseñar, programar, probar y depurar aplicaciones Android desde un solo lugar. Incluye un editor de código inteligente con autocompletado, análisis de errores en tiempo real y soporte para lenguajes como Kotlin (lenguaje recomendado por Google), Java y C++. Además, cuenta con un potente emulador de dispositivos Android, que permite probar aplicaciones sin necesidad de un teléfono físico.
-
-
-PROPOSITO DEL PROYECTO
-
-Este proyecto fue desarrollado como aplicación práctica de conceptos de desarrollo Android, implementando:
+### Este proyecto fue desarrollado como aplicación práctica de conceptos de desarrollo Android, implementando:
 - Gestión de estado de aplicación
 - Persistencia de datos
 - Interacción con componentes 
@@ -15,7 +8,7 @@ Este proyecto fue desarrollado como aplicación práctica de conceptos de desarr
 - Programación en Java
 
 
-DESCRIPCIÓN
+## Descripción General
 
 Inventario App
 Es una aplicación móvil Android desarrollada para la gestión eficiente de inventario de productos electrónicos. Implementa un sistema de almacenamiento persistente mediante SharedPreferences, permitiendo el control de cantidades de productos (Teclados, Mouse, Pantallas y Micrófonos) con capacidad de incremento, decremento y consulta en tiempo real.
@@ -27,3 +20,18 @@ Consulta de inventario actual
 Reinicio de contadores por producto
 Almacenamiento persistente con SharedPreferences
 Interfaz intuitiva con CheckBoxes y EditTexts
+### Interfaz principal
+La app tiene 4 checkbox que permiten seleccionar el producto que se desea mostrar, guardar (ya sea sacar o ingresar al inventario) y hacer un reset completo del inventario. La app solo realizara la accion que el boton indique para la checkbox seleccionada.
+
+<img src="https://github.com/jaiderospina/APLICACIONES_MOVILES/blob/main/TAREA1/CODIGO%20INVENTARIO/images/1000208893.png" alt="Arquitectura del Sistema" width="600" height="700" />
+
+### Mostrar
+Al usar este botón la app muestra el estado del inventario del producto seleccionado
+
+<img src="https://github.com/jaiderospina/APLICACIONES_MOVILES/blob/main/TAREA1/CODIGO%20INVENTARIO/images/25.png" alt="Arquitectura del Sistema" width="600" height="700" />
+
+### Guardar
+
+Guardar permite que al seleccionar un producto y en el espacio donde la app permite una entrada numerica con numeros negativos guarda o saca del inventario segun los sognos que se usen, para sacar algo se debe usar el signo menos(-) mientras que para ingresar basa con poner el numero normal
+
+<img src="https://github.com/jaiderospina/APLICACIONES_MOVILES/blob/main/TAREA1/CODIGO%20INVENTARIO/images/1000208895.png" alt="Arquitectura del Sistema" width="600" height="700" />  <img src="https://github.com/jaiderospina/APLICACIONES_MOVILES/blob/main/TAREA1/CODIGO%20INVENTARIO/images/1000208896.png" alt="Arquitectura del Sistema" width="600" height="700" /> 
