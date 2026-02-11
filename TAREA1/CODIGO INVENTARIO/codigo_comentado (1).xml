@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Contenedor principal: Se utiliza un LinearLayout con orientación vertical.
+    Este contenedor organiza todos los elementos de la interfaz uno debajo del otro.
+    Se define un fondo gris claro (#F5F5F5) y un padding de 16dp para separar el contenido de los bordes.-->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!--Título de la aplicación:
+	Un TextView centrado que muestra el nombre de la app. 
+        Utiliza estilos de texto en negrita y un tamaño de fuente de 24sp para destacar.-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Encabezado de la Sección de Productos:
+         Indica al usuario que los elementos siguientes corresponden a la selección de artículos.-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/products_section"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/secondary"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 
+        Bloque de Producto: Teclado
+        Contiene un CheckBox para seleccionar el producto y un EditText para ingresar la cantidad.
+        El uso de layout_weight="1" en el CheckBox permite que este ocupe el espacio sobrante,
+        mientras que el EditText mantiene un ancho fijo de 100dp.
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/ch_tec"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/keyboard"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/n_tec"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/quantity_hint"
+            android:inputType="numberSigned"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <!-- 
+        Bloque de Producto: Mouse
+        Estructura idéntica al bloque anterior para mantener la consistencia visual.
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/ch_mou"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/mouse"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/n_mou"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/quantity_hint"
+            android:inputType="numberSigned"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <!-- 
+        Bloque de Producto: Pantalla
+        Permite la selección y especificación de cantidad para el monitor/pantalla.
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/ch_pan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/screen"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/n_pan"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/quantity_hint"
+            android:inputType="numberSigned"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <!-- 
+        Bloque de Producto: Micrófono
+        Último bloque de la lista de productos antes de los botones de acción.
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/ch_mic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/microphone"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/n_mic"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/quantity_hint"
+            android:inputType="numberSigned"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <!-- 
+        Botones de Acción:
+        Fila horizontal con tres botones (Almacenar, Mostrar, Reset).
+        Se utiliza layout_weight="1" en cada botón para que se distribuyan equitativamente
+        en el ancho de la pantalla. Cada uno tiene asignado un método onClick que debe estar
+        definido en la Activity de Java/Kotlin.
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_store"
+            android:onClick="almacenar"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/btn_store"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_show"
+            android:onClick="mostrar"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/btn_show"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_reset"
+            android:onClick="reset"
+            android:layout_marginStart="4dp"
+            android:backgroundTint="@color/btn_reset"/>
+    </LinearLayout>
+
+    <!-- 
+        Área de Resultados:
+        Título para la sección donde se visualizarán los datos procesados.
+    -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/results_section"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/secondary"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 
+        Contenedor con Scroll para Resultados:
+        Se usa un ScrollView para permitir que el usuario se desplace si el texto de resultados es muy largo.
+        El layout_weight="1" hace que esta sección ocupe todo el espacio vertical disponible restante.
+        Dentro hay un TextView (id: textView) que recibirá dinámicamente la información.
+    -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_results"
+            android:textSize="16sp"
+            android:textColor="@color/text_primary"/>
+    </ScrollView>
+
+</LinearLayout>
