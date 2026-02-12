@@ -56,7 +56,7 @@ Acumulativo: Cada vez que presionas "Almacenar", se suma a la cantidad existente
 
 Reseteable: El botón "Reset" pone el inventario en 0 para los productos seleccionados
 
-## ¿Cómo acceder a este archivo?
+## ¿Cómo acceder al archivo donde se guardan los datos?
 
 El dispositivo tiene root
 
@@ -65,4 +65,35 @@ Se usa Android Device Monitor desde Android Studio
 Usas un emulador de Android
 
 <img width="926" height="367" alt="image" src="https://github.com/user-attachments/assets/fc84de87-26ad-4b75-b67e-70a980c4662c" />
+
+
+
+## Cómo Agregar Más Productos al Inventario
+
+
+Método 1: Implementación Manual 
+
+Este método consiste en replicar la estructura existente para cada nuevo producto que se desee agregar.
+Pasos para agregar un nuevo producto (ejemplo: "Audífonos"):
+
+ -Modificar el archivo XML (activity_main.xml): Agregar un nuevo bloque LinearLayout con un CheckBox y un EditText después de los productos existentes, asignando IDs únicos como ch_aud y n_aud.
+ 
+ -Declarar variables en MainActivity.java: Crear las variables privadas correspondientes para el CheckBox y EditText del nuevo producto.
+
+ -Inicializar en el método onCreate: Vincular las variables con los elementos de la interfaz mediante findViewById y configurar el validador de entrada numérica.
+
+ -Inicializar en OnCreate.
+
+<img width="454" height="781" alt="image" src="https://github.com/user-attachments/assets/3ade127f-62ff-41bc-9c75-cd51e76c3ba0" />
+
+
+
+ Método 2: Sistema Dinámico con ArrayList 
+
+Crear una clase auxiliar Producto: Esta clase encapsula el nombre del producto junto con sus componentes CheckBox y EditText.
+Utilizar ArrayList: Almacenar todos los productos en una lista dinámica que se inicializa en el método onCreate.
+Refactorizar métodos con bucles: Los métodos almacenar(), mostrar() y reset() se simplifican utilizando bucles for que iteran sobre la lista de productos.
+
+Para agregar un nuevo producto: Solo es necesario agregar el bloque visual en el XML y una única línea de código en el método onCreate que añada el producto al ArrayList.
+
 
