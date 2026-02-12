@@ -96,4 +96,6 @@ Refactorizar métodos con bucles: Los métodos almacenar(), mostrar() y reset() 
 
 Para agregar un nuevo producto: Solo es necesario agregar el bloque visual en el XML y una única línea de código en el método onCreate que añada el producto al ArrayList.
 
+<img width="522" height="836" alt="image" src="https://github.com/user-attachments/assets/eecd890d-6b93-48fb-93cb-a74f1732656d" />
+
 
