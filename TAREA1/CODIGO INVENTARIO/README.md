@@ -58,11 +58,14 @@ Reseteable: El botón "Reset" pone el inventario en 0 para los productos selecci
 
 ## ¿Cómo acceder al archivo donde se guardan los datos?
 
-El dispositivo tiene root
+La información se guarda usando SharedPreferences con el nombre "inventario".
 
-Se usa Android Device Monitor desde Android Studio
 
-Usas un emulador de Android
+-El dispositivo tiene root
+
+-Se usa Android Device Monitor desde Android Studio
+
+-Usas un emulador de Android
 
 <img width="926" height="367" alt="image" src="https://github.com/user-attachments/assets/fc84de87-26ad-4b75-b67e-70a980c4662c" />
 
