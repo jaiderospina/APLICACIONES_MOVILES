@@ -49,14 +49,19 @@ Guardar permite que al seleccionar un producto y en el espacio donde la app perm
 ### Características importantes:
 
 Persistente: Los datos permanecen aunque cierres la app
+
 Privado: Solo tu aplicación puede acceder a estos datos
+
 Acumulativo: Cada vez que presionas "Almacenar", se suma a la cantidad existente (cant=cant+cani)
+
 Reseteable: El botón "Reset" pone el inventario en 0 para los productos seleccionados
 
 ## ¿Cómo acceder a este archivo?
 
-El ispositivo tiene root
+El dispositivo tiene root
+
 Se usa Android Device Monitor desde Android Studio
+
 Usas un emulador de Android
 
 <img width="926" height="367" alt="image" src="https://github.com/user-attachments/assets/fc84de87-26ad-4b75-b67e-70a980c4662c" />
