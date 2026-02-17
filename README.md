@@ -14,4 +14,8 @@ Finalmente, la estructura técnica que sostiene este mercado implica una topolog
 
 **Referencias**
 
-- https://developer.android.com/?hl=es-419
+- **Plataforma desarrollo:** https://developer.android.com/?hl=es-419
+- **Ejercicios resueltos:** https://github.com/IamLAM/PseInt
+- **Teoría básica:** https://github.com/JefferssonMunozTorres/Principios-de-Algoritmos-PSeInt
+- **PSEINT:** https://pseint.sourceforge.net/index.php?page=ejemplos.php
+- **Varios:** https://pseintlab.com/principios-algoritmos-utp-examen-final-modelo-1/
