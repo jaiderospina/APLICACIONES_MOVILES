@@ -20,3 +20,4 @@ Finalmente, la estructura técnica que sostiene este mercado implica una topolog
 - **PSEINT:** https://pseint.sourceforge.net/index.php?page=ejemplos.php
 - **Varios:** https://pseintlab.com/principios-algoritmos-utp-examen-final-modelo-1/
 - **CURSO COMPLETO**: https://github.com/Domiciano/AppMoviles201/tree/master
+- **Curso:** https://youtu.be/ve1LVoMGZmk?si=gW_apCXgy7n0Y5NV
