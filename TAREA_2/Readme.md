@@ -1,3 +1,5 @@
+### Nombre:Juliana Caterine Cifuentes 
+
 ## ¿Qué es el Pseudocódigo?
 El pseudocódigo es una forma de describir algoritmos usando un lenguaje intermedio entre el español (o cualquier lengua natural) y un lenguaje de programación formal. No tiene reglas de sintaxis estrictas ni está ligado a ningún lenguaje en particular, lo que lo hace ideal para planear y comunicar la lógica de un programa antes de escribir el código real.
 Su propósito principal es que cualquier persona, incluso sin conocer programación, pueda entender los pasos que sigue un algoritmo. Por eso usa palabras como Si, Entonces, Mientras, Para, Leer, Escribir, en lugar de símbolos o comandos técnicos.
