@@ -111,5 +111,10 @@ Descuento aplicado: S/ 10.00
 Importe final: S/ 40.00
 ----------------------------------------
 ```
+# **NOTA:**
+
+# **Se debe realizar tanto algoritmo como diagrama de flujo y agragar entrega en carpeta individual**
+
 
 ---
+
