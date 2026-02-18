@@ -49,9 +49,9 @@ El algoritmo debe:
 
 | Tipo de Vehículo | Precio por minuto |
 | ---------------- | ----------------- |
-| Motocicleta      | S/ 0.02           |
-| Auto             | S/ 0.25           |
-| Camioneta        | S/ 0.30           |
+| Motocicleta      | S/ $ 60           |
+| Auto             | S/ $ 120          |
+| Camioneta        | S/ $ 300          |
 
 ---
 
@@ -106,9 +106,9 @@ El estudiante deberá usar:
 ----------------------------------------
 Placa: ABC-123
 Tiempo: 3 horas y 20 minutos
-Precio base: S/ 50.00
-Descuento aplicado: S/ 10.00
-Importe final: S/ 40.00
+Precio base: $ 50.00
+Descuento aplicado: $ 10.00
+Importe final: $ 40.00
 ----------------------------------------
 ```
 # **NOTA:**
@@ -117,4 +117,5 @@ Importe final: S/ 40.00
 
 
 ---
+
 
