@@ -10,3 +10,16 @@ Facilmente podemos agregar mas tipos de vehiculos, añadiendo mas checkbox en la
  *🚗💳 Descuento por pago anticipado
  
  *🧓 Descuento para adultos mayores
+
+ ### Interfaz principal
+
+ Clara y facil de usar permite seleccionar con un solo toque el tipo de vehiculo en lugar de tener de escribir la palabra completa del tipo de vehiculo, especifica el tiempo en horas y minutos y los descuentos aplicados.
+
+ <img src="https://github.com/jaiderospina/APLICACIONES_MOVILES/blob/main/EVALUACION_1/Evaluaci%C3%B3n%20APP%20moviles/screenshots/WhatsApp%20Image%202026-02-25%20at%2018.15.53%20(3).png" alt="Arquitectura del Sistema" width="300" height="400" />  
+
+ ### Moto, automovil y camioneta
+ <img src="https://github.com/jaiderospina/APLICACIONES_MOVILES/blob/main/EVALUACION_1/Evaluaci%C3%B3n%20APP%20moviles/screenshots/WhatsApp%20Image%202026-02-25%20at%2018.15.53%20(1).png"  width="300" height="400" /> <img src="https://github.com/jaiderospina/APLICACIONES_MOVILES/blob/main/EVALUACION_1/Evaluaci%C3%B3n%20APP%20moviles/screenshots/WhatsApp%20Image%202026-02-25%20at%2018.15.53%20(2).png"  width="300" height="400" /> <img src="https://github.com/jaiderospina/APLICACIONES_MOVILES/blob/main/EVALUACION_1/Evaluaci%C3%B3n%20APP%20moviles/screenshots/WhatsApp%20Image%202026-02-25%20at%2018.15.53.png"  width="300" height="400" /> 
+
+ 
+
+
