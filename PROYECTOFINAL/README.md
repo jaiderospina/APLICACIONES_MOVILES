@@ -1,4 +1,4 @@
-# 🐾 PetTrack – Requerimientos de Software
+# PetTrack – Requerimientos de Software
 ### Proyecto Práctico | Tecnología en Electrónica y Comunicaciones
 
 ---
@@ -130,8 +130,6 @@ Este apartado es **obligatorio** como parte del trabajo práctico. Los estudiant
 - Gateway LoRaWAN (TTN – The Things Network)
 - Backend MQTT → Firebase → App Android
 
-> 📌 **Recomendación:** Implementar la Opción A o B como prototipo base, y documentar la Opción C como propuesta de escalabilidad.
-
 ---
 
 ## 6. Arquitectura del Sistema
@@ -246,7 +244,7 @@ Alert { id, petId, geofenceId, type, message, timestamp, notifiedSMS }
 ## 12. Estructura del Repositorio GitHub
 
 ```
-📦 pettrack-android/
+pettrack-android/
 ├── 📁 app/                  → Código fuente Android
 ├── 📁 hardware/             → Código Arduino/ESP32, esquemáticos
 │   ├── firmware/
