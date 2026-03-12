@@ -1,31 +1,3 @@
-
-### Estructura recomendada para GitHub
-
-Crea esta estructura de carpetas:
-
-```
-RULETA_JAIDER_FIREBASE/
-├── README.md               ← el archivo que viene a continuación
-└── images/
-    ├── 01-seleccionar-cuenta.png
-    ├── 02-crear-proyecto-firestore.png
-    ├── 03-base-de-datos-lista.png
-    ├── 04-agregar-datos-mensaje.png
-    ├── 05-firestore-consola-vacia.png
-    ├── 06-reglas-firestore-default.png
-    ├── 07-inicializar-firebase-cli.png
-    ├── 08-firebase-init-opciones.png
-    ├── 09-firebase-json-generado.png
-    ├── 10-firestore-rules-ejemplo.png
-    ├── 11-deploy-hosting-exitoso.png
-    ├── 12-url-app-publicada.png
-    ├── 13-app-web-en-vivo.png
-    └── (puedes renombrar o ajustar según lo que realmente tengas)
-```
-
-### Contenido del archivo `README.md`
-
-```markdown
 # RULETA_JAIDER_FIREBASE  
 Guía paso a paso para publicar una aplicación web (ej. Ruleta o similar) en **Firebase Hosting** con **Cloud Firestore**
 
@@ -45,6 +17,26 @@ Ve a la consola → **Crear proyecto** → ponle nombre (ej. `ruleta-jaider-2026
 
 ![Crear proyecto en Firebase](images/02-crear-proyecto-firestore.png)
 
+Agregar si se desea google analytcs.
+
+![analitics](images/analitics.png)
+
+**Seleccionar una cuenta:**
+
+![cuenta](images/cuenta.png)
+
+**Configurar google analiytics**
+
+![](images/configurar.png).
+
+
+Esto procede a crear el proyecto tra unos segundos como se observa en la imagén.
+
+
+
+![](images/proyecto.png).
+
+
 ## Paso 3: Habilitar Firestore y crear la base de datos
 
 1. En el menú lateral → **Firestore Database**  
@@ -53,21 +45,42 @@ Ve a la consola → **Crear proyecto** → ponle nombre (ej. `ruleta-jaider-2026
 4. Selecciona ubicación cercana (ej. nam5 – us-central)  
 5. Confirma
 
-![Pantalla de creación de base de datos Firestore](images/03-base-de-datos-lista.png)
+![Pantalla de creación de base de datos Firestore](images/DB.png)
+
+Selecionar en base de datos el simbolo de NoSQL "firestore"
+
+![](images/DB1.png)
+
+Acto seguido "Crear base de datos"
+
+![](images/DB2.png)
+
+Seleccionar la opción "Standard"
+
+![](images/DB3.png)
+
+Seleccionar Ubicación.
+
+![](images/DB4.png)
+
+Agregar reglas de acceso.
+
+![](images/DB5.png)
 
 ## Paso 4: Mensaje de base de datos lista
 
 Una vez creada, verás este mensaje:
 
-> Tu base de datos está lista. Solo tienes que agregar datos.
+> La base de datos está lista. Solo tienes que agregar datos.
 
-![Mensaje "Tu base de datos está lista"](images/04-agregar-datos-mensaje.png)
+
+
 
 ## Paso 5: Consola de Firestore vacía (sin datos aún)
 
 Vista inicial de la colección vacía.
 
-![Consola Firestore sin documentos](images/05-firestore-consola-vacia.png)
+![](images/DB6.png)![Consola Firestore sin documentos](images/05-firestore-consola-vacia.png)
 
 ## Paso 6: Reglas de seguridad por defecto (modo test)
 
@@ -84,25 +97,24 @@ service cloud.firestore {
 }
 ```
 
-![Reglas de Firestore en modo test](images/06-reglas-firestore-default.png)
+![Reglas de Firestore en modo test](images/regla.png)
 
 ## Paso 7: Inicializar Firebase CLI en tu proyecto local
 
 En la terminal, dentro de la carpeta de tu app web:
 
 ```bash
-firebase init
+firebase init hosting
 ```
 
 Selecciona **Hosting** y **Firestore**.
 
-![Pantalla de firebase init](images/07-inicializar-firebase-cli.png)
+![Pantalla de firebase init](images/init.png)
 
 ## Paso 8: Opciones seleccionadas en firebase init
 
 Marca Hosting y Firestore (usa espacio para seleccionar).
 
-![Opciones en firebase init](images/08-firebase-init-opciones.png)
 
 ## Paso 9: Archivo firebase.json generado
 
@@ -143,7 +155,7 @@ service cloud.firestore {
 Ejecuta:
 
 ```bash
-firebase deploy
+firebase deploy --only hosting
 ```
 
 Verás algo similar:
@@ -151,7 +163,7 @@ Verás algo similar:
 > ✔  Deploy complete!  
 > Hosting URL: https://ruleta-jaider-2026.web.app
 
-![Resultado de firebase deploy](images/11-deploy-hosting-exitoso.png)
+![Resultado de firebase deploy](images/deploy.png)
 
 ## Paso 12: URL de la aplicación publicada
 
@@ -160,13 +172,11 @@ Accede desde cualquiera de estas URLs:
 - https://ruleta-jaider-2026.web.app  
 - https://ruleta-jaider-2026.firebaseapp.com
 
-![Pantalla con la URL generada](images/12-url-app-publicada.png)
-
 ## Paso 13: Vista final de la aplicación en vivo
 
 (Agrega aquí la captura de tu ruleta o interfaz web ya funcionando)
 
-![Aplicación web publicada en Firebase Hosting](images/13-app-web-en-vivo.png)
+![Aplicación web publicada en Firebase Hosting](images/ruleta.png)
 
 ---
 
@@ -178,3 +188,4 @@ Accede desde cualquiera de estas URLs:
 - Usa autenticación si vas a permitir escritura  
 - Para dominio personalizado: Hosting → Conectar dominio  
 - Monitorea uso en la consola (gratis hasta ciertos límites)
+
