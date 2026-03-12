@@ -7,8 +7,6 @@ Este documento muestra el proceso completo de configuración de Firebase para un
 
 Inicia sesión en la consola de Firebase con tu cuenta de Google.
 
-![Seleccionar cuenta de Google para Firebase](images/01-seleccionar-cuenta.png)
-
 ## Paso 2: Crear un nuevo proyecto
 
 Ve a la consola → **Crear proyecto** → ponle nombre (ej. `ruleta-jaider-2026`)
@@ -25,7 +23,7 @@ Agregar si se desea google analytcs.
 
 ![cuenta](images/cuenta.png)
 
-**Configurar google analiytics**
+**Configurar google analytics**
 
 ![](images/configurar.png).
 
@@ -74,8 +72,6 @@ Una vez creada, verás este mensaje:
 > La base de datos está lista. Solo tienes que agregar datos.
 
 
-
-
 ## Paso 5: Consola de Firestore vacía (sin datos aún)
 
 Vista inicial de la colección vacía.
@@ -96,8 +92,6 @@ service cloud.firestore {
   }
 }
 ```
-
-![Reglas de Firestore en modo test](images/regla.png)
 
 ## Paso 7: Inicializar Firebase CLI en tu proyecto local
 
@@ -130,7 +124,6 @@ Ejemplo típico después de la inicialización:
 }
 ```
 
-![Contenido de firebase.json](images/09-firebase-json-generado.png)
 
 ## Paso 10: Ejemplo de reglas Firestore más seguras
 
@@ -188,4 +181,5 @@ Accede desde cualquiera de estas URLs:
 - Usa autenticación si vas a permitir escritura  
 - Para dominio personalizado: Hosting → Conectar dominio  
 - Monitorea uso en la consola (gratis hasta ciertos límites)
+
 
