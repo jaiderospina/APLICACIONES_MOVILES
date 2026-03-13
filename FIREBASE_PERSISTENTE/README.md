@@ -181,5 +181,20 @@ Accede desde cualquiera de estas URLs:
 - Usa autenticación si vas a permitir escritura  
 - Para dominio personalizado: Hosting → Conectar dominio  
 - Monitorea uso en la consola (gratis hasta ciertos límites)
+- Se anexa el documento [manual](Manual_Ruleta_Jaider_v2.pdf) como artefacto guía del curso  
+
+*******
+
+<div align="center">
+
+## RETO EN CLASE 🎡
+
+</div>
+
+Desarrollar capa de persistencia en el ejercico No 1 desarrollado (parqueadero) empleando **firebase**  y documentar completamnete el proceso.
+
+- Para efectos de conexión de android studio tomar como referencia https://youtu.be/Af6JxCJiY3w e  investigar otra fuentes complementarias. 
 
 
+Referencias:
+- https://youtu.be/v3O2OSaQb34
