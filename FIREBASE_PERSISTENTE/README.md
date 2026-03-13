@@ -195,6 +195,8 @@ Desarrollar capa de persistencia en el ejercico No 1 desarrollado (parqueadero) 
 
 - Para efectos de conexión de android studio tomar como referencia https://youtu.be/Af6JxCJiY3w e  investigar otra fuentes complementarias. 
 
+** [Guía laboratorio](Guia-Implementacion-Firebase-en-Proyecto.docx)
 
 Referencias:
 - https://youtu.be/v3O2OSaQb34
+
