@@ -1,5 +1,5 @@
 
-
+# REST (Representational State Transfer)
 
 **REST** (Representational State Transfer) es un estilo de arquitectura de software utilizado para crear servicios web. No es un protocolo (como el HTTP) ni un lenguaje de programación, sino un **conjunto de principios y restricciones** que permiten que diferentes sistemas en la red se comuniquen de forma ligera, escalable y eficiente.
 
