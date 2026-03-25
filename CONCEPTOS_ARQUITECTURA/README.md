@@ -236,9 +236,22 @@ class PostActivity : AppCompatActivity() {
 
 ---
 
+
 ### ¿Por qué esta combinación es tan potente?
 
-1.  **Inmutabilidad:** Usamos `data class` para asegurar que los datos no cambien accidentalmente.
-2.  **Eficiencia:** Las **Coroutines** con `Dispatchers.IO` hacen que la interfaz nunca se trabe mientras descarga los datos.
-3.  **Orden:** Si el usuario gira la pantalla mientras se descargan los datos, el **ViewModel** mantiene la descarga activa y, al terminar la rotación, la **Vista** se vuelve a conectar y recibe los datos sin repetir la petición.
-4.  **Seguridad:** El uso de `suspend` en Retrofit hace que el código sea **Type-safe** y mucho más fácil de leer que los antiguos *callbacks*.
+ **Inmutabilidad:** Usamos `data class` para asegurar que los datos no cambien accidentalmente.
+ **Eficiencia:** Las **Coroutines** con `Dispatchers.IO` hacen que la interfaz nunca se trabe mientras descarga los datos.
+ **Orden:** Si el usuario gira la pantalla mientras se descargan los datos, el **ViewModel** mantiene la descarga activa y, al terminar la rotación, la **Vista** se vuelve a conectar y recibe los datos sin repetir la petición.
+ **Seguridad:** El uso de `suspend` en Retrofit hace que el código sea **Type-safe** y mucho más fácil de leer que los antiguos *callbacks*.
+
+---
+ 
+# **Taller Individual**
+
+Desarrollar , corregir y/o actualizar ( de ser requerido) y de manera individual el taller propuesto en :
+
+- https://keepcoding.io/blog/retrofit-en-kotlin-para-consumir-apis/
+
+Explicar cada una de las funciones implementadas en el contexto de su papel en la aplicación y posibles usos (ejemplificar).
+
+---
