@@ -1,0 +1,79 @@
+package com.example.movielist
+
+import android.os.Bundle
+import android.util.Log
+import android.view.View
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.movielist.databinding.ActivityMainBinding
+import kotlinx.coroutines.launch
+
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+    private val TAG = "MovieListDebug"
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        Log.d(TAG, "onCreate: Iniciando actividad")
+        
+        try {
+            binding = ActivityMainBinding.inflate(layoutInflater)
+            setContentView(binding.root)
+            Log.d(TAG, "onCreate: Layout inflado y establecido")
+        } catch (e: Exception) {
+            Log.e(TAG, "Error al inflar el layout", e)
+        }
+
+        binding.rvMovies.layoutManager = LinearLayoutManager(this)
+        fetchMovies()
+    }
+
+    private fun fetchMovies() {
+        Log.d(TAG, "fetchMovies: Empezando carga de datos")
+        binding.progressBar.visibility = View.VISIBLE
+        binding.rvMovies.visibility = View.GONE
+        binding.tvError.visibility = View.GONE
+
+        lifecycleScope.launch {
+            try {
+                Log.d(TAG, "fetchMovies: Llamando a la API...")
+                val response = RetrofitClient.instance.getPopularMovies(page = 0)
+
+                if (response.isSuccessful) {
+                    val movies = response.body() ?: emptyList()
+                    Log.d(TAG, "fetchMovies: Éxito! Recibidas ${movies.size} películas")
+                    
+                    if (movies.isNotEmpty()) {
+                        displayMovies(movies)
+                    } else {
+                        showError("La lista de películas está vacía")
+                    }
+                } else {
+                    val errorMsg = "Error API: ${response.code()} ${response.message()}"
+                    Log.e(TAG, "fetchMovies: $errorMsg")
+                    showError(errorMsg)
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "fetchMovies: Excepción de red/conexión", e)
+                showError("Error de conexión: ${e.localizedMessage ?: "Error desconocido"}")
+            } finally {
+                binding.progressBar.visibility = View.GONE
+            }
+        }
+    }
+
+    private fun displayMovies(movies: List<Movie>) {
+        Log.d(TAG, "displayMovies: Configurando adaptador")
+        binding.rvMovies.adapter = MovieAdapter(movies)
+        binding.rvMovies.visibility = View.VISIBLE
+    }
+
+    private fun showError(message: String) {
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show()
+        binding.tvError.text = message
+        binding.tvError.visibility = View.VISIBLE
+    }
+}
