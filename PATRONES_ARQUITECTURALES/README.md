@@ -1,6 +1,8 @@
 
 ## Introducción a los Patrones Arquitecturales
 
+![ ](Patrones_Arquitecturales.png)   
+
 ### ¿Qué son los Patrones Arquitecturales?
 En el desarrollo de software, un **patrón arquitectural** es una solución general y reutilizable a problemas que ocurren comúnmente dentro de un contexto determinado. No es un trozo de código que se pueda copiar y pegar, sino un **plano o esquema organizativo** que define la estructura de alto nivel de un sistema.
 
@@ -17,8 +19,6 @@ Implementar estos patrones no es una cuestión de "preferencia estética", sino 
 
 > **En resumen:** Los patrones arquitecturales transforman el desarrollo artesanal en **ingeniería de software**, permitiendo crear aplicaciones robustas, fáciles de entender y preparadas para el cambio.
 
-
-[patrones](Patrones_Arquitecturales.png)
 
 ---
 
