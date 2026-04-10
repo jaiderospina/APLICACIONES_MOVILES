@@ -6,7 +6,7 @@ En el desarrollo de software, un **patrón arquitectural** es una solución gene
 
 Si comparamos la programación con la construcción, los patrones arquitecturales no deciden el color de las paredes, sino dónde van las columnas de soporte, cómo se distribuyen las tuberías y cómo se conectan los diferentes pisos para que el edificio no se colapse.
 
-
+![patrones](Patrones_Arquitecturales.png)
 
 ### ¿Cuál es su utilidad?
 Implementar estos patrones no es una cuestión de "preferencia estética", sino de necesidad técnica para garantizar la supervivencia de un proyecto a largo plazo. Su utilidad se resume en tres pilares:
@@ -18,7 +18,7 @@ Implementar estos patrones no es una cuestión de "preferencia estética", sino 
 > **En resumen:** Los patrones arquitecturales transforman el desarrollo artesanal en **ingeniería de software**, permitiendo crear aplicaciones robustas, fáciles de entender y preparadas para el cambio.
 
 
-[patrones](Patrones_Arquitecturales.png)
+
 
 ---
 
