@@ -107,11 +107,18 @@ Para que la app pueda consultar la base de datos de películas es necesario tene
 
 ---
 
-## 📱 Funcionalidades de la app
+## 📱 Vista previa de la app
+
+La app muestra una lista de películas populares obtenidas desde TMDB en tiempo real. Cada tarjeta presenta el título de la película y su calificación promedio. La lista es deslizable y se actualiza automáticamente al iniciar la aplicación.
+
+<img src="https://raw.githubusercontent.com/jaiderospina/APLICACIONES_MOVILES/main/CONCEPTOS_ARQUITECTURA/camilo/imagenes/funcionamiento.png" width="300"/>
+
+---
+
+## ✅ Funcionalidades de la app
 
 - ✅ Lista de películas populares con scroll
 - ✅ Muestra título y calificación de cada película
 - ✅ Indicador de carga mientras llegan los datos
 - ✅ Manejo de errores de conexión
 - ✅ Contenido en español con `language=es-ES`
-
