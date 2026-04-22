@@ -140,7 +140,7 @@ RNF5: Confiabilidad
    
 RNF6: Escalabilidad
 
- 	La arquitectura debe soportar el monitoreo simultáneo de hasta 10,000 mascotas.
+ 	La arquitectura debe soportar el monitoreo simultáneo de hasta 100 mascotas.
 La base de datos debe estar optimizada con índices para consultas rápidas.
 El sistema debe permitir la adición de nuevos dispositivos sin reconfiguración del servidor.
 
