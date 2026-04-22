@@ -262,10 +262,10 @@ Se recomienda el **GF-07**. [cite_start]Es el único que reporta ubicación naci
 Justificación de la Selección de Dispositivos
 La selección del GF-07, el Finein Tag y los iTags genéricos para este proyecto no es arbitraria: responde a un análisis riguroso de los casos de uso específicos, las condiciones del mercado local y las restricciones presupuestarias definidas. A continuación se detallan los argumentos técnicos y económicos que sustentan cada elección.
 
-1. GF-07: El Rastreador Vehicular Accesible
-Para el caso de uso de rastreo vehicular —el de mayor riesgo y mayor necesidad de cobertura geográfica amplia—, el GF-07 emerge como la opción más pragmática dentro del presupuesto disponible. A diferencia de los rastreadores GPS activos comerciales (TK103, Concox GT06N, Queclink GV55), que cuestan entre $150.000 y $400.000 COP solo en hardware, más instalación profesional y plan de datos, el GF-07 puede adquirirse por $35.000-60.000 COP y operarse sin conocimientos técnicos avanzados.
+1. GF-07: El Rastreador Accesible
+Para el caso de uso de rastreo de mascotas —el de mayor riesgo y mayor necesidad de cobertura geográfica amplia—, el GF-07 emerge como la opción más pragmática dentro del presupuesto disponible. A diferencia de los rastreadores GPS activos comerciales (TK103, Concox GT06N, Queclink GV55), que cuestan entre $150.000 y $400.000 COP solo en hardware, más instalación profesional y plan de datos, el GF-07 puede adquirirse por $35.000-60.000 COP y operarse sin conocimientos técnicos avanzados.
 
-La triangulación LBS, aunque menos precisa que el GPS, es suficiente para los dos objetivos principales del rastreo vehicular antirrobo: confirmar si el vehículo se ha movido de una zona general y reportar la ciudad o barrio donde se encuentra. En Colombia, donde la red celular 2G de Claro, Movistar y Tigo cubre más del 95% del territorio, el GF-07 ofrece una cobertura operativa superior a cualquier solución basada exclusivamente en Bluetooth.
+La triangulación LBS, aunque menos precisa que el GPS, es suficiente para los dos objetivos principales del rastreo de mascotas antirrobo: confirmar si el vehículo se ha movido de una zona general y reportar la ciudad o barrio donde se encuentra. En Colombia, donde la red celular 2G de Claro, Movistar y Tigo cubre más del 95% del territorio, el GF-07 ofrece una cobertura operativa superior a cualquier solución basada exclusivamente en Bluetooth.
 
 Ventaja clave del GF-07: Es el único dispositivo de la selección que no depende de la proximidad física del usuario ni de la densidad de otros usuarios para funcionar. Puede reportar su ubicación desde cualquier punto del país con cobertura celular 2G, lo que lo hace insustituible para rastreo de largo alcance.
 
@@ -274,7 +274,3 @@ Para el rastreo de objetos personales de valor medio-alto (mochilas, maletas de 
 
 La elección del Finein Tag sobre el AirTag se fundamenta en tres razones: primero, el ahorro de $200.000-240.000 COP por unidad permite adquirir múltiples dispositivos para equipar diferentes objetos con el mismo presupuesto; segundo, su certificación MFi garantiza compatibilidad oficial con la red Find My sin las restricciones de los clones no certificados; tercero, el diseño compacto y el peso reducido (menor que el AirTag en algunos modelos) facilita su integración discreta en objetos donde el espacio es limitado.
 
-3. iTag Genérico: La Solución Inmediata Anti-Olvido
-Los iTags genéricos cubren un caso de uso que ninguno de los otros dispositivos satisface de manera óptima: la prevención proactiva del olvido en tiempo real. Tanto el GF-07 como el Finein Tag requieren un evento de pérdida o robo para activar su utilidad; el iTag, por el contrario, genera una alerta en el momento exacto en que el usuario se aleja de su objeto, antes de que se produzca la pérdida.
-
-Frente al Tile Mate —su competidor más directo en la categoría de alarmas de proximidad—, el iTag ofrece funcionalidad equivalente a un tercio o cuarta parte del precio. Para casos de uso de baja complejidad (llaves del hogar, control de acceso, billetera), donde la red de búsqueda comunitaria no aporta valor significativo y la prioridad es la inmediatez de la alerta local, el iTag genérico es la solución óptima.
