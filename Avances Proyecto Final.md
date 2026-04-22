@@ -262,10 +262,10 @@ Se recomienda el **GF-07**. [cite_start]Es el único que reporta ubicación naci
 Justificación de la Selección de Dispositivos
 La selección del GF-07, el Finein Tag y los iTags genéricos para este proyecto no es arbitraria: responde a un análisis riguroso de los casos de uso específicos, las condiciones del mercado local y las restricciones presupuestarias definidas. A continuación se detallan los argumentos técnicos y económicos que sustentan cada elección.
 
-1. GF-07: El Rastreador Accesible
-Para el caso de uso de rastreo de mascotas —el de mayor riesgo y mayor necesidad de cobertura geográfica amplia—, el GF-07 emerge como la opción más pragmática dentro del presupuesto disponible. A diferencia de los rastreadores GPS activos comerciales (TK103, Concox GT06N, Queclink GV55), que cuestan entre $150.000 y $400.000 COP solo en hardware, más instalación profesional y plan de datos, el GF-07 puede adquirirse por $35.000-60.000 COP y operarse sin conocimientos técnicos avanzados.
+1. GF-07: El Rastreador vehicular Accesible
+Para el caso de uso de rastreo vehicular —el de mayor riesgo y mayor necesidad de cobertura geográfica amplia—, el GF-07 emerge como la opción más pragmática dentro del presupuesto disponible. A diferencia de los rastreadores GPS activos comerciales (TK103, Concox GT06N, Queclink GV55), que cuestan entre $150.000 y $400.000 COP solo en hardware, más instalación profesional y plan de datos, el GF-07 puede adquirirse por $35.000-60.000 COP y operarse sin conocimientos técnicos avanzados.
 
-La triangulación LBS, aunque menos precisa que el GPS, es suficiente para los dos objetivos principales del rastreo de mascotas antirrobo: confirmar si el vehículo se ha movido de una zona general y reportar la ciudad o barrio donde se encuentra. En Colombia, donde la red celular 2G de Claro, Movistar y Tigo cubre más del 95% del territorio, el GF-07 ofrece una cobertura operativa superior a cualquier solución basada exclusivamente en Bluetooth.
+La triangulación LBS, aunque menos precisa que el GPS, es suficiente para los dos objetivos principales del rastreo vehicular antirrobo: confirmar si el vehículo se ha movido de una zona general y reportar la ciudad o barrio donde se encuentra. En Colombia, donde la red celular 2G de Claro, Movistar y Tigo cubre más del 95% del territorio, el GF-07 ofrece una cobertura operativa superior a cualquier solución basada exclusivamente en Bluetooth.
 
 Ventaja clave del GF-07: Es el único dispositivo de la selección que no depende de la proximidad física del usuario ni de la densidad de otros usuarios para funcionar. Puede reportar su ubicación desde cualquier punto del país con cobertura celular 2G, lo que lo hace insustituible para rastreo de largo alcance.
 
