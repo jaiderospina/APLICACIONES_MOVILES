@@ -251,6 +251,81 @@ Para que la aplicación funcione en modo paisaje o tablets, se debe detectar el 
 
 1. Explicar los conceptos Alineación vs. Arreglo
 2. Crear imágenes con apoyo de IA para ampliar las ideas anteriormente explicadas.
+* **Respuesta**
+  el ejemplo que se uso para generar la imagen fue el siguiente:
+   Ejemplo Práctico por Tipo de Aplicación
+    Aplicación de Red Social (Estilo Instagram)
+    Arreglo general:
+
+    Header superior fijo con logo y notificaciones
+    Feed central con scroll infinito vertical
+    Navegación inferior fija con iconos principales
+    Alineación específica:
+
+    Fotos centradas horizontalmente con márgenes uniformes
+    Texto de publicaciones alineado a la izquierda
+    Botones de interacción (like, comment) alineados a la izquierda
+    Perfil de usuario circular perfectamente centrado en la parte superior
+    Ventajas de este enfoque:
+    
+    La navegación inferior siempre accesible facilita el cambio entre secciones
+    El scroll vertical es natural para consumir contenido
+    La alineación consistente crea una experiencia predecible
+    Aplicación de E-commerce (Estilo Amazon)
+    Arreglo general:
+    
+    Búsqueda superior con barra destacada
+    Carrusel horizontal de ofertas principales
+    Categorías en cuadrícula 2x3
+    Lista vertical de productos recomendados
+    Alineación específica:
+    
+    Precientes alineados a la derecha para fácil comparación
+    Imágenes de productos centradas con fondo uniforme
+    Botones "Comprar ahora" alineados consistentemente en la parte inferior
+    Estrellas de valoración siempre alineadas a la izquierda
+    Ventajas de este enfoque:
+    
+    El carrusel horizontal maximiza el espacio para ofertas importantes
+    La cuadrícula de categorías permite acceso rápido a diferentes secciones
+    La alineación consistente de precios facilita la comparación
+    Aplicación de Productividad (Estilo Notion)
+    Arreglo general:
+    
+    Sidebar lateral fijo con navegación principal
+    Contenido central con bloques apilables
+    Barra de herramientas flotante contextual
+    Alineación específica:
+    
+    Títulos alineados a la izquierda con sangría jerárquica
+    Elementos de lista con alineación de viñetas consistente
+    Botones de acción alineados a la derecha
+    Contenido multimedia centrado con márgenes simétricos
+    Ventajas de este enfoque:
+    
+    El sidebar lateral permite navegación rápida sin salir del contenido
+    Los bloques apilables facilitan la organización flexible
+    La alineación jerárquica mejora la legibilidad
+    Aplicación de Salud y Fitness (Estilo Strava)
+    Arreglo general:
+    
+    Resumen superior con métricas principales destacadas
+    Gráficos circulares para progreso
+    Historial cronológico vertical
+    Botones de acción inferiores fijos
+    Alineación específica:
+    
+    Métricas numéricas centradas con jerarquía tipográfica clara
+    Etiquetas de gráficos alineadas radialmente
+    Fechas del historial alineadas a la izquierda
+    Botones de inicio/parada centrados para fácil acceso
+    Ventajas de este enfoque:
+    
+    Las métricas destacadas permiten rápida evaluación del progreso
+    Los gráficos circulares facilitan la comprensión visual
+    El historial cronológico sigue el flujo natural del tiempo
+  <img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/002188b1-07b6-41b5-a339-e77db16ba68d" />
+
 
 ---
 
