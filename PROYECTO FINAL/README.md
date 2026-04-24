@@ -1,7 +1,6 @@
-
 # 🐾 PetTrack — Solución Integral de Rastreo de Mascotas
 
-Este repositorio contiene el **Análisis Técnico de Hardware** y la **Guía de Optimización** para el desarrollo de un sistema de rastreo de mascotas orientado a la región andina. El proyecto integra tres capas tecnológicas complementarias —GSM, BLE Mesh y BLE Directo— para garantizar la localización del animal en cualquier escenario geográfico y operativo.
+Este repositorio contiene el **Análisis Técnico de Hardware** y la **Guía de Optimización** para el desarrollo de un sistema de rastreo de mascotas orientado a la región andina. Tras evaluar tres tecnologías de rastreo —GSM, BLE Mesh y BLE Directo—, el proyecto adopta el **GF-07** como dispositivo definitivo por su cobertura nacional, independencia de infraestructura externa y relación costo-beneficio.
 
 ---
 
@@ -253,47 +252,58 @@ Limitar el número de dispositivos Bluetooth activos simultáneamente (auricular
 
 ## 📊 Análisis Comparativo con Estándares Globales
 
-| Dispositivo | Tecnología | Precisión | Cobertura | Precio |
-|---|---|---|---|---|
-| GF-07 | GSM / LBS | Baja | Nacional | Bajo |
-| Finein Tag | BLE + red Find My | Media | Global | Medio |
-| iTag genérico | BLE | Baja | Local | Bajo |
-| Apple AirTag | BLE + UWB | Alta | Global | Alto |
-| Samsung SmartTag2 | BLE | Media | Global | Medio |
+> Este análisis fue el fundamento técnico para la selección del dispositivo final del proyecto. Se evaluaron cinco soluciones de rastreo considerando tecnología, precisión, cobertura geográfica y costo. El resultado: el **GF-07** es el único que cumple con todos los criterios críticos para el contexto colombiano.
+
+| Dispositivo | Tecnología | Precisión | Cobertura | Precio | Seleccionado |
+|---|---|---|---|---|:---:|
+| **GF-07** | GSM / LBS | Media | Nacional (>95%) | Bajo | ✅ |
+| Finein Tag | BLE + red Find My | Media | Global (dep. iOS) | Medio | — |
+| iTag genérico | BLE | Baja | Local (~15 m) | Bajo | — |
+| Apple AirTag | BLE + UWB | Alta | Global | Alto | — |
+| Samsung SmartTag2 | BLE | Media | Global | Medio | — |
+
+### ¿Por qué el GF-07?
+
+A diferencia de las soluciones BLE, el GF-07 **no depende de la proximidad del usuario ni de la densidad de otros dispositivos** para reportar ubicación. Opera de forma autónoma sobre la red celular 2G, con cobertura en más del 95% del territorio colombiano, y puede consultarse desde cualquier teléfono mediante SMS sin necesidad de internet ni aplicaciones. Para un collar de mascota que debe funcionar en entornos urbanos y rurales por igual, esta independencia es determinante.
+
+| Criterio | BLE (Finein / iTag / AirTag) | **GF-07** ✅ |
+|---|---|---|
+| Funciona sin otros dispositivos cerca | ❌ | ✅ |
+| Cobertura rural Colombia | ❌ | ✅ |
+| Opera sin app ni internet | ❌ | ✅ |
+| Costo de adquisición | Medio–Alto | **Bajo** |
+| Sin suscripción mensual obligatoria | ✅ | ✅ |
 
 ---
 
-## 🎯 Estrategia de Implementación por Caso de Uso
+## 🎯 Estrategia de Implementación
+
+El **GF-07** es el dispositivo adoptado para todos los escenarios de uso del proyecto. Su operación vía SMS lo hace funcional en cualquier contexto donde exista cobertura celular 2G, sin importar si el entorno es urbano, rural o de difícil acceso.
 
 ### 🐕‍🦺 Mascotas en Entorno Urbano
-Se recomienda el **Finein Tag** como dispositivo principal, por su equilibrio entre precisión, autonomía y cobertura en zonas con alta densidad de usuarios Apple.
+El GF-07 reporta ubicación con precisión de 100 a 500 metros en zonas de alta densidad celular. Suficiente para localizar al animal en el barrio o manzana donde se encuentre.
 
 ### 🐎 Mascotas en Zonas Rurales / Viajes
-Se recomienda el **GF-07**. Es el único dispositivo de la selección que reporta ubicación a nivel nacional sin depender de la proximidad de otros smartphones, siempre que exista cobertura celular 2G en la zona.
+La cobertura 2G de Claro, Movistar y Tigo alcanza más del 95% del territorio colombiano, lo que permite rastrear a la mascota incluso en veredas y municipios alejados.
 
 ### 🦮 Entrenamiento / Control de Paseo
-El **iTag genérico** es la solución óptima para evitar que la mascota se aleje durante paseos sin correa, gracias a su alerta de desconexión inmediata y su simplicidad de uso.
+El comando `777****` permite solicitar ubicación en cualquier momento, y la alarma de sonido (`666****`) puede activarse remotamente si la mascota se pierde o queda quieta.
 
 ---
 
-> 💡 **Recomendación Final:** Para una cobertura total con presupuesto reducido (menos de $200.000 COP), la combinación de las tres tecnologías representa la inversión óptima frente a soluciones premium de ecosistema cerrado.
+> ✅ **Dispositivo Final del Proyecto: GF-07**
+> Seleccionado por su cobertura nacional, operación autónoma vía SMS, bajo costo de adquisición (~$30.000 COP) y compatibilidad con la infraestructura celular 2G disponible en Colombia.
 
 ---
 
-## Justificación de la Selección de Dispositivos
+## Justificación de la Selección del Dispositivo
 
-La elección del GF-07, el Finein Tag y los iTags genéricos para este proyecto responde a un análisis riguroso de los casos de uso específicos, las condiciones del mercado local y las restricciones presupuestarias definidas.
+La elección del GF-07 como dispositivo único de este proyecto responde a un análisis riguroso de los casos de uso específicos, las condiciones del mercado local y las restricciones presupuestarias definidas.
 
 ### GF-07 — El Rastreador de Amplia Cobertura
 
-Para el caso de uso de rastreo en campo abierto —el de mayor riesgo y mayor necesidad de cobertura geográfica—, el GF-07 emerge como la opción más pragmática dentro del presupuesto disponible. A diferencia de los rastreadores GPS activos comerciales (TK103, Concox GT06N, Queclink GV55), que oscilan entre $150.000 y $400.000 COP solo en hardware más instalación profesional y plan de datos, el GF-07 puede adquirirse por entre $35.000 y $60.000 COP y operarse sin conocimientos técnicos avanzados.
+Para el rastreo de mascotas —con la necesidad de cobertura geográfica amplia que esto implica—, el GF-07 emerge como la opción más pragmática dentro del presupuesto disponible. A diferencia de los rastreadores GPS activos comerciales (TK103, Concox GT06N, Queclink GV55), que oscilan entre $150.000 y $400.000 COP solo en hardware más instalación profesional y plan de datos, el GF-07 puede adquirirse por entre $35.000 y $60.000 COP y operarse sin conocimientos técnicos avanzados.
 
-La triangulación LBS, aunque menos precisa que el GPS, es suficiente para los dos objetivos principales del rastreo antirrobo: confirmar si el vehículo o la mascota se ha desplazado de una zona general y reportar la ciudad o barrio donde se encuentra. En Colombia, donde la red celular 2G de Claro, Movistar y Tigo cubre más del 95% del territorio, el GF-07 ofrece una cobertura operativa superior a cualquier solución basada exclusivamente en Bluetooth.
+La triangulación LBS, aunque menos precisa que el GPS puro, es suficiente para los objetivos principales del proyecto: confirmar si la mascota se ha desplazado de una zona general y reportar el barrio o sector donde se encuentra. En Colombia, donde la red celular 2G de Claro, Movistar y Tigo cubre más del 95% del territorio, el GF-07 ofrece una cobertura operativa superior a cualquier solución basada exclusivamente en Bluetooth.
 
-> **Ventaja clave:** Es el único dispositivo de la selección que no depende de la proximidad física del usuario ni de la densidad de otros dispositivos para funcionar. Puede reportar su ubicación desde cualquier punto del país con cobertura 2G, lo que lo hace insustituible para rastreo de largo alcance.
-
-### Finein Tag — Integración al Ecosistema de Mayor Alcance
-
-Para el rastreo de objetos personales de valor medio-alto (mochilas, maletas de viaje, equipos fotográficos), el Finein Tag ofrece la mejor relación entre precisión, autonomía y costo operativo. Frente al AirTag —su referente tecnológico directo—, aprovecha exactamente la misma infraestructura *Find My* a una fracción del costo, siendo compatible con el mismo ecosistema sin sacrificar funcionalidades esenciales.
-
-La elección del Finein Tag sobre el AirTag se fundamenta en tres razones: primero, el ahorro de entre $200.000 y $240.000 COP por unidad permite adquirir múltiples dispositivos con el mismo presupuesto; segundo, su certificación MFi garantiza compatibilidad oficial con la red *Find My* sin las restricciones de los clones no certificados; tercero, su diseño compacto y peso reducido facilita la integración discreta en objetos donde el espacio es limitado.
+> **Ventaja clave:** Es el único dispositivo evaluado que no depende de la proximidad física del usuario ni de la densidad de otros dispositivos para funcionar. Puede reportar su ubicación desde cualquier punto del país con cobertura 2G, lo que lo hace insustituible para rastreo de largo alcance en la región andina.
