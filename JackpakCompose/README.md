@@ -186,6 +186,7 @@ Compose ofrece contenedores estándar para posicionar elementos:
 
 *   **Alineación (Alignment):** Controla el posicionamiento en el **eje cruzado** (ej. centrar horizontalmente dentro de una `Column`).
 *   **Arreglo (Arrangement):** Controla la distribución en el **eje principal** (ej. el espacio entre elementos en una `Row`).
+<img width="3570" height="4770" alt="image" src="https://github.com/user-attachments/assets/35e9500c-2c98-4a40-8377-a322bedc2980" />
 
 ---
 
