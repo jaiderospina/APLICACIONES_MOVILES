@@ -185,8 +185,41 @@ Compose ofrece contenedores estándar para posicionar elementos:
 #### Alineación vs. Arreglo
 
 *   **Alineación (Alignment):** Controla el posicionamiento en el **eje cruzado** (ej. centrar horizontalmente dentro de una `Column`).
+
+Se encarga de posicionar cada elemento individualmente dentro de su contenedor, pero en el eje cruzado.
+
+Es decir, define dónde se ubica un elemento respecto al contenedor.
+
+Se aplica a cada componente por separado.
+
+Ejemplo:
+
+En una Column (vertical), la alineación controla el eje horizontal.
+Puedes centrar, alinear a la izquierda o a la derecha un elemento.
+
+👉 En pocas palabras:
+
+La alineación decide “dónde se coloca un elemento”.
+
 *   **Arreglo (Arrangement):** Controla la distribución en el **eje principal** (ej. el espacio entre elementos en una `Row`).
 
+Se encarga de distribuir todos los elementos en conjunto, pero en el eje principal.
+
+Define cómo se reparten los elementos dentro del contenedor.
+
+Se aplica al grupo completo de elementos.
+
+Ejemplo:
+
+En una Row (horizontal), el arreglo controla el espacio horizontal.
+
+Puedes usar SpaceBetween, SpaceAround, Center, etc.
+
+👉 En pocas palabras:
+
+El arreglo decide “cómo se distribuyen los elementos entre sí”.
+
+<img width="1197" height="1600" alt="image" src="https://github.com/user-attachments/assets/dc21c515-de22-494d-9d57-74268bdbc3a4" />
 
 ---
 
