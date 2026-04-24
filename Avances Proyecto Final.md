@@ -17,10 +17,9 @@ Adicionalmente, se incorpora en esta edición ampliada un análisis comparativo 
 
 Componentes Principales
 1.	Dispositivo Collar (Hardware)
-   
-Microcontrolador: ESP32 (Dual Core, 240 MHz)
 
-Módulo GPS: NEO-6M con antena cerámica
+
+Módulo GPS: GF-07
 
 Módulo GSM: SIM800L para comunicación celular
 
@@ -50,8 +49,8 @@ Almacenamiento: AWS S3 (para fotos de mascotas)
 
 ## ⚙️ Tecnologías
 🔌 Hardware
-ESP32 DevKit V1
-GPS NEO-6M
+
+GPS GF-07
 SIM800L (GSM/GPRS)
 Batería LiPo 3.7V
 TP4056
