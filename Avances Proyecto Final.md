@@ -152,9 +152,8 @@ Debe existir un proceso de actualización de firmware para los dispositivos sin 
 ## Materiales
 
 | Componente   | Precio (COP) |
-| ------------ | ------------ |
-| ESP32        | $29.900      |
-| GPS NEO-6M   | $29.600      |
+| ------------ | ------------ |   |
+| GPS GF-07   | $29.600      |
 | SIM800L      | $30.000      |
 | Batería LiPo | $18.000      |
 | TP4056       | $4.500       |
