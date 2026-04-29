@@ -7,7 +7,7 @@ La arquitectura básica de software en **3 capas**, y aplicada a **aplicaciones 
 
 ## 1. Usuario → App móvil
 
-![](ECOSISTEMA_AI_JON.png)
+![](ARQUITECTURA_BÁSICA_JON.png)
 
 
 En una aplicación móvil, el **usuario** interactúa con pantallas, botones, formularios, menús, notificaciones y flujos de navegación.
