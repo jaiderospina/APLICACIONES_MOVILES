@@ -7,3 +7,9 @@ La inteligencia artificial cumple un papel clave en el desarrollo de software po
 
 ---
 ![](CAPAS_AI_JON.png)
+
+---
+## TAREA
+
+**Explicar (EN ESTE README) cada uno de los concepTos de las capas de la AI**.
+
