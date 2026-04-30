@@ -20,7 +20,7 @@ La Inteligencia Artificial (IA) es la capacidad de una máquina para realizar ta
 
 La IA es un campo amplio que incluye varias áreas y tecnologías. En la imagen, aparece como la capa principal porque agrupa conceptos como robótica inteligente, sistemas expertos, reconocimiento de voz, representación del conocimiento y ética de la IA.
 
-  ## Ejemplos prácticos de IA:
+  **Ejemplos prácticos de IA:**
 
   - Un asistente virtual que responde preguntas.
 
@@ -35,7 +35,7 @@ Machine Learning (aprendizaje automático) es una rama de la IA que permite a la
 
 En lugar de dar instrucciones exactas para cada caso, el sistema analiza ejemplos, encuentra patrones y mejora su desempeño con el tiempo. En la imagen, Machine Learning aparece como una capa dentro de la IA y sirve como base para técnicas más avanzadas como redes neuronales y deep learning.
 
-  ## Ejemplos prácticos de Machine Learning:
+  **Ejemplos prácticos de Machine Learning:**
 
   - Detectar si un correo es spam o no spam.
   
