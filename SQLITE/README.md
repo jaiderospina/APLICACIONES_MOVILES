@@ -313,10 +313,6 @@ private fun testDatabase() {
 
 ---
 
-Aquí tienes el contenido organizado y formateado en un archivo **README.md** detallado, enfocado en la implementación práctica de las operaciones CRUD en Android con Kotlin.
-
----
-
 # 💾 Operaciones CRUD en SQLite
 
 CRUD representa las cuatro operaciones fundamentales para la gestión de persistencia de datos. En Android, utilizamos la clase `SQLiteDatabase` junto con `ContentValues` y `Cursor` para interactuar con el motor de base de datos.
