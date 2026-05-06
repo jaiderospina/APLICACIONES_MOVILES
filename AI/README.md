@@ -123,6 +123,43 @@ El deep learning es una evolución de las redes neuronales que utiliza múltiple
 ### 🚀 Self-Organizing Maps
 - Organiza datos automáticamente en mapas.
 - Útil para visualización y agrupamiento.
+  
+## 🔵 Generative AI
 
+**RLHF (Aprendizaje por Refuerzo con Retroalimentación Humana):** Técnica para entrenar modelos de IA usando feedback humano como recompensa, mejorando sus respuestas progresivamente.
+
+**LLM (Large Language Model):** Modelos de lenguaje entrenados con enormes cantidades de texto capaces de generar, resumir y razonar sobre lenguaje natural.
+
+**Few-shot Learning:** Capacidad de un modelo para aprender a realizar tareas nuevas con muy pocos ejemplos, sin reentrenamiento completo.
+
+**Generative Adversarial Networks:** Arquitectura con dos redes (generadora y discriminadora) que compiten entre sí para crear contenido sintético realista como imágenes o audio.
+
+**Foundation Models:** Modelos grandes preentrenados en datos masivos que sirven como base para múltiples aplicaciones especializadas mediante fine-tuning.
+
+**Diffusion Models:** Modelos que generan imágenes aprendiendo a revertir un proceso de ruido gradual, logrando resultados muy realistas y detallados.
+
+**Multimodal AI:** Sistemas capaces de procesar y combinar múltiples tipos de datos (texto, imagen, audio, video) en un mismo modelo.
+
+**LangChain:** Framework de desarrollo que facilita construir aplicaciones con LLMs, conectando modelos, herramientas, memoria y fuentes de datos.
+
+---
+
+## 🟠 Agentic AI
+
+**AI Agents:** Sistemas de IA que perciben su entorno, toman decisiones y ejecutan acciones para alcanzar objetivos de forma autónoma.
+
+**Manejo de memoria y contexto:** Capacidad del agente para retener información relevante a lo largo de una conversación o tarea prolongada.
+
+**Sistemas multiagente:** Arquitectura donde múltiples agentes de IA colaboran o se especializan para resolver tareas complejas de forma coordinada.
+
+**Bucles de retroalimentación:** Mecanismo por el cual el agente evalúa sus propios resultados y ajusta su comportamiento en tiempo real.
+
+**Automatización de flujos de trabajo:** Uso de agentes para ejecutar secuencias de tareas repetitivas o complejas de forma autónoma y eficiente.
+
+**Razonamiento orientado a objetivos:** Capacidad del agente para planificar pasos lógicos hacia una meta, evaluando opciones y anticipando consecuencias.
+
+**Uso e integración de herramientas:** Habilidad del agente para invocar APIs, buscadores, bases de datos u otras herramientas externas según lo necesite.
+
+**Toma de decisiones autónoma:** Capacidad del agente para elegir acciones sin intervención humana constante, basándose en contexto y objetivos definidos.
 
 
