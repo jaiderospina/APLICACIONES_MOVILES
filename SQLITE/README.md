@@ -319,10 +319,6 @@ Aquí tienes el contenido organizado y formateado en un archivo **README.md** de
 
 # 💾 Operaciones CRUD en SQLite
 
-| ⏱️ Duración estimada | Nivel | Conceptos Clave |
-| :--- | :--- | :--- |
-| 25 min | Intermedio | Create, Read, Update, Delete |
-
 CRUD representa las cuatro operaciones fundamentales para la gestión de persistencia de datos. En Android, utilizamos la clase `SQLiteDatabase` junto con `ContentValues` y `Cursor` para interactuar con el motor de base de datos.
 
 ---
