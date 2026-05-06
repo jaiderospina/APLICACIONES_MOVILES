@@ -15,35 +15,68 @@ La inteligencia artificial cumple un papel clave en el desarrollo de software po
 
 ## SOLUCION
 
-## Inteligencia Artificial
-La Inteligencia Artificial (IA) es la capacidad de una máquina para realizar tareas que normalmente requieren inteligencia humana, como reconocer voz, entender texto, analizar información, tomar decisiones o resolver problemas.
+# Capas de IA: Inteligencia Artificial y Machine Learning
 
-La IA es un campo amplio que incluye varias áreas y tecnologías. En la imagen, aparece como la capa principal porque agrupa conceptos como robótica inteligente, sistemas expertos, reconocimiento de voz, representación del conocimiento y ética de la IA.
+Este documento proporciona una explicación detallada de los dos primeros niveles fundamentales en el ámbito de la Inteligencia Artificial, tal como se presentan en la imagen de referencia: **Inteligencia Artificial** y **Machine Learning**. Se abordan sus conceptos centrales y los subtérminos clave asociados a cada uno, con el objetivo de ofrecer una comprensión estructurada para un público técnico.
 
-  **Ejemplos prácticos de IA:**
+## Tabla de Contenidos
 
-  - Un asistente virtual que responde preguntas.
+1.  [Inteligencia Artificial (IA)](#1-inteligencia-artificial-ia)
+    *   [Robótica inteligente](#robótica-inteligente)
+    *   [Reinforcement Learning (Aprendizaje por Refuerzo)](#reinforcement-learning-aprendizaje-por-refuerzo)
+    *   [Reconocimiento de voz](#reconocimiento-de-voz)
+    *   [Ética de AI](#ética-de-ai)
+    *   [Computación cognitiva](#computación-cognitiva)
+    *   [Sistemas expertos](#sistemas-expertos)
+    *   [Construcción de algoritmos](#construcción-de-algoritmos)
+    *   [Representación del conocimiento](#representación-del-conocimiento)
+2.  [Machine Learning (Aprendizaje Automático)](#2-machine-learning-aprendizaje-automático)
+    *   [K-Means](#k-means)
+    *   [PCA (Análisis de Componentes Principales)](#pca-análisis-de-componentes-principales)
+    *   [Decision Trees (Árboles de Decisión)](#decision-trees-árboles-de-decisión)
+    *   [Linear Regression (Regresión Lineal)](#linear-regression-regresión-lineal)
+    *   [Logistic Regression (Regresión Logística)](#logistic-regression-regresión-logística)
+    *   [K-Nearest Neighbors (K-Vecinos Más Cercanos)](#k-nearest-neighbors-k-vecinos-más-cercanos)
+    *   [Support Vector Machine (Máquinas de Vectores de Soporte)](#support-vector-machine-máquinas-de-vectores-de-soporte)
+    *   [Naive Bayes](#naive-bayes)
 
-  - Un sistema de recomendación de videos o música.
+## 1. Inteligencia Artificial (IA)
 
-  - Un vehículo que detecta obstáculos y frena automáticamente.
+La **Inteligencia Artificial** (IA) es un campo multidisciplinario de la informática que se dedica al desarrollo de sistemas capaces de realizar tareas que, tradicionalmente, requieren inteligencia humana. Esto incluye capacidades como el razonamiento, el aprendizaje, la percepción, la comprensión del lenguaje y la toma de decisiones. Su objetivo principal es crear agentes inteligentes que puedan operar de manera autónoma y adaptarse a entornos cambiantes.
 
-  - Un chatbot que conversa en lenguaje natural.
+| Subtérmino | Descripción |
+|:---|:---|
+| **Robótica inteligente** | Rama de la robótica que integra principios de IA para dotar a los robots de capacidades cognitivas, permitiéndoles percibir su entorno, planificar acciones, aprender de la experiencia y ejecutar tareas complejas con autonomía y adaptabilidad. Esto va más allá de la automatización programada, buscando una interacción más dinámica y flexible con el mundo real. |
+| **Reinforcement Learning (Aprendizaje por Refuerzo)** | Paradigma de aprendizaje automático donde un agente aprende a tomar decisiones óptimas en un entorno dinámico mediante la interacción y la recepción de señales de recompensa o castigo. El objetivo es maximizar la recompensa acumulada a lo largo del tiempo, desarrollando una política de comportamiento a través de la exploración y la explotación. |
+| **Reconocimiento de voz** | Tecnología que permite a los sistemas informáticos identificar, procesar y transcribir el lenguaje hablado humano a texto. Se basa en modelos acústicos y de lenguaje para interpretar fonemas y palabras, facilitando la interacción natural entre humanos y máquinas a través de interfaces de voz. |
+| **Ética de AI** | Campo de estudio que examina las implicaciones morales, sociales y filosóficas del diseño, desarrollo, despliegue y uso de sistemas de inteligencia artificial. Aborda cuestiones críticas como la equidad algorítmica, la privacidad de los datos, la responsabilidad, la transparencia y el impacto en el empleo y la sociedad. |
+| **Computación cognitiva** | Enfoque de la IA que busca simular los procesos de pensamiento humano, incluyendo el razonamiento, la comprensión del lenguaje natural, el aprendizaje y la interacción. Los sistemas cognitivos están diseñados para procesar grandes volúmenes de datos no estructurados, identificar patrones y ofrecer recomendaciones para apoyar la toma de decisiones humana. |
+| **Sistemas expertos** | Programas de IA que emulan el conocimiento y la capacidad de razonamiento de un experto humano en un dominio específico. Utilizan una base de conocimientos (hechos y reglas) y un motor de inferencia para resolver problemas complejos, diagnosticar situaciones o proporcionar asesoramiento, a menudo con explicaciones sobre su proceso de decisión. |
+| **Construcción de algoritmos** | Proceso fundamental en la informática y la IA que implica el diseño sistemático de secuencias finitas de instrucciones bien definidas para resolver un problema o realizar una tarea específica. En IA, esto a menudo se centra en algoritmos que permiten el aprendizaje, la optimización, la búsqueda o la representación del conocimiento. |
+| **Representación del conocimiento** | Área de la IA que se ocupa de cómo estructurar y almacenar información sobre el mundo de manera que un sistema inteligente pueda acceder a ella, razonar sobre ella y utilizarla para resolver problemas. Implica el uso de lógicas formales, redes semánticas, ontologías y otros formalismos para modelar el conocimiento. |
 
-## Machine Learning
-Machine Learning (aprendizaje automático) es una rama de la IA que permite a las máquinas aprender a partir de datos, sin necesidad de programar todas las reglas manualmente.
+## 2. Machine Learning (Aprendizaje Automático)
 
-En lugar de dar instrucciones exactas para cada caso, el sistema analiza ejemplos, encuentra patrones y mejora su desempeño con el tiempo. En la imagen, Machine Learning aparece como una capa dentro de la IA y sirve como base para técnicas más avanzadas como redes neuronales y deep learning.
+El **Machine Learning** (ML) es una rama de la Inteligencia Artificial que se centra en el desarrollo de algoritmos y modelos estadísticos que permiten a los sistemas aprender de los datos, identificar patrones y tomar decisiones o hacer predicciones con una intervención humana mínima. A diferencia de la programación explícita, el ML permite a las máquinas mejorar su rendimiento en una tarea específica a medida que se exponen a más datos.
 
-  **Ejemplos prácticos de Machine Learning:**
+| Subtérmino | Descripción |
+|:---|:---|
+| **K-Means** | Algoritmo de agrupamiento (clustering) no supervisado que particiona un conjunto de `n` observaciones en `k` grupos, donde cada observación pertenece al grupo cuyo centroide (media) es el más cercano. Su objetivo es minimizar la varianza intra-clúster, siendo ampliamente utilizado para la segmentación de datos. |
+| **PCA (Análisis de Componentes Principales)** | Técnica de reducción de dimensionalidad utilizada para transformar un conjunto de variables posiblemente correlacionadas en un conjunto de variables linealmente no correlacionadas, llamadas componentes principales. Estas componentes capturan la mayor parte de la varianza en los datos, facilitando la visualización y el preprocesamiento para otros algoritmos de ML. |
+| **Decision Trees (Árboles de Decisión)** | Modelos predictivos no paramétricos que utilizan una estructura similar a un diagrama de flujo para clasificar o predecir un valor objetivo. Cada nodo interno representa una prueba sobre un atributo, cada rama representa el resultado de la prueba y cada nodo hoja representa una etiqueta de clase o un valor de predicción. Son intuitivos y fáciles de interpretar. |
+| **Linear Regression (Regresión Lineal)** | Modelo estadístico supervisado que establece una relación lineal entre una variable dependiente continua y una o más variables independientes. Se utiliza para predecir valores numéricos continuos, ajustando una línea recta (o hiperplano) a los datos para minimizar la suma de los cuadrados de los errores. |
+| **Logistic Regression (Regresión Logística)** | A pesar de su nombre, es un algoritmo de clasificación supervisado que modela la probabilidad de que una instancia pertenezca a una clase particular. Utiliza una función logística (sigmoide) para mapear cualquier valor real a un rango entre 0 y 1, siendo fundamental para problemas de clasificación binaria y multiclase. |
+| **K-Nearest Neighbors (K-Vecinos Más Cercanos)** | Algoritmo de clasificación y regresión no paramétrico y basado en instancias. Clasifica un nuevo punto de datos basándose en la mayoría de las clases (para clasificación) o el promedio de los valores (para regresión) de sus `k` vecinos más cercanos en el espacio de características. Es simple de implementar y efectivo para conjuntos de datos pequeños. |
+| **Support Vector Machine (Máquinas de Vectores de Soporte)** | Conjunto de algoritmos de aprendizaje supervisado utilizados para problemas de clasificación y regresión. Su objetivo es encontrar el hiperplano óptimo que maximice el margen entre las clases en un espacio de características de alta dimensión. Son particularmente efectivos en espacios de alta dimensión y cuando el número de dimensiones es mayor que el número de muestras. |
+| **Naive Bayes** | Familia de algoritmos de clasificación probabilísticos basados en el teorema de Bayes con la suposición de independencia condicional (ingenua) entre las características. Son simples, rápidos y a menudo funcionan bien en tareas de clasificación de texto y filtrado de spam, a pesar de la simplificación de la independencia. |
 
-  - Detectar si un correo es spam o no spam.
-  
-  - Predecir el precio de una casa según sus características.
-  
-  - Clasificar clientes según su comportamiento.
-  
-  - Reconocer imágenes de gatos, perros o personas.
+## Referencias
+
+*   [1] Russell, S. J., & Norvig, P. (2010). *Artificial Intelligence: A Modern Approach*. Prentice Hall.
+*   [2] Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press.
+*   [3] Alpaydin, E. (2020). *Introduction to Machine Learning*. MIT Press.
+*   [4] Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. Springer. 
+
 
 
 
