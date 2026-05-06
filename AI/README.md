@@ -44,3 +44,85 @@ En lugar de dar instrucciones exactas para cada caso, el sistema analiza ejemplo
   - Clasificar clientes según su comportamiento.
   
   - Reconocer imágenes de gatos, perros o personas.
+
+
+
+## 🔹 Neural Networks 
+
+Las redes neuronales son modelos inspirados en el cerebro humano que permiten a las máquinas aprender a partir de datos
+
+### 📌 Boltzmann Machine
+- Red neuronal probabilística.
+- Aprende distribuciones de los datos.
+- Se utiliza en modelos generativos.
+
+### 📌 Convolutional Network
+- Red enfocada en el procesamiento de imágenes.
+- Detecta patrones como bordes, texturas y formas.
+
+### 📌 Backpropagation
+- Algoritmo de entrenamiento.
+- Ajusta los pesos de la red para minimizar el error.
+
+### 📌 Multi-Layer Perceptron
+- Red neuronal con múltiples capas.
+- Permite modelar relaciones complejas.
+
+### 📌 Feed Forward Network
+- La información fluye en una sola dirección.
+- No tiene memoria ni retroalimentación.
+
+### 📌 Perceptron
+- Modelo más simple de red neuronal.
+- Clasificador lineal binario.
+
+### 📌 Hopfield Network
+- Red con memoria asociativa.
+- Recupera patrones a partir de datos incompletos.
+
+### 📌 Recurrent Neural Network
+- Red con memoria.
+- Procesa datos secuenciales.
+
+---
+
+## 🔸 Deep Learning  
+
+El deep learning es una evolución de las redes neuronales que utiliza múltiples capas para resolver problemas complejos.
+
+### 🚀 CNN (Red Neuronal Convolucional)
+- Versión avanzada de redes convolucionales.
+- Usada en visión por computadora.
+
+### 🚀 RNN (Red Neuronal Recurrente)
+- Procesa secuencias de datos.
+- Aplicaciones en lenguaje y voz.
+
+### 🚀 LSTM (Memoria a Corto y Largo Plazo)
+- Tipo de RNN mejorada.
+- Puede recordar información por largos periodos.
+
+### 🚀 GAN (Red Generativa Antagónica)
+- Dos redes compiten:
+  - Generador
+  - Discriminador
+- Genera datos realistas.
+
+### 🚀 Autoencoders
+- Comprimen y reconstruyen datos.
+- Usados en reducción de dimensionalidad.
+
+### 🚀 Transformers
+- Modelo basado en mecanismos de atención.
+- Muy eficiente para procesamiento de lenguaje.
+
+### 🚀 Deep Belief Network
+- Red profunda probabilística.
+- Usada en los inicios del deep learning.
+
+### 🚀 Self-Organizing Maps
+- Organiza datos automáticamente en mapas.
+- Útil para visualización y agrupamiento.
+
+
+
