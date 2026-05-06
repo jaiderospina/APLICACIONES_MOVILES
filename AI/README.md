@@ -19,27 +19,6 @@ La inteligencia artificial cumple un papel clave en el desarrollo de software po
 
 Este documento proporciona una explicación detallada de los dos primeros niveles fundamentales en el ámbito de la Inteligencia Artificial, tal como se presentan en la imagen de referencia: **Inteligencia Artificial** y **Machine Learning**. Se abordan sus conceptos centrales y los subtérminos clave asociados a cada uno, con el objetivo de ofrecer una comprensión estructurada para un público técnico.
 
-## Tabla de Contenidos
-
-1.  [Inteligencia Artificial (IA)](#1-inteligencia-artificial-ia)
-    *   [Robótica inteligente](#robótica-inteligente)
-    *   [Reinforcement Learning (Aprendizaje por Refuerzo)](#reinforcement-learning-aprendizaje-por-refuerzo)
-    *   [Reconocimiento de voz](#reconocimiento-de-voz)
-    *   [Ética de AI](#ética-de-ai)
-    *   [Computación cognitiva](#computación-cognitiva)
-    *   [Sistemas expertos](#sistemas-expertos)
-    *   [Construcción de algoritmos](#construcción-de-algoritmos)
-    *   [Representación del conocimiento](#representación-del-conocimiento)
-2.  [Machine Learning (Aprendizaje Automático)](#2-machine-learning-aprendizaje-automático)
-    *   [K-Means](#k-means)
-    *   [PCA (Análisis de Componentes Principales)](#pca-análisis-de-componentes-principales)
-    *   [Decision Trees (Árboles de Decisión)](#decision-trees-árboles-de-decisión)
-    *   [Linear Regression (Regresión Lineal)](#linear-regression-regresión-lineal)
-    *   [Logistic Regression (Regresión Logística)](#logistic-regression-regresión-logística)
-    *   [K-Nearest Neighbors (K-Vecinos Más Cercanos)](#k-nearest-neighbors-k-vecinos-más-cercanos)
-    *   [Support Vector Machine (Máquinas de Vectores de Soporte)](#support-vector-machine-máquinas-de-vectores-de-soporte)
-    *   [Naive Bayes](#naive-bayes)
-
 ## 1. Inteligencia Artificial (IA)
 
 La **Inteligencia Artificial** (IA) es un campo multidisciplinario de la informática que se dedica al desarrollo de sistemas capaces de realizar tareas que, tradicionalmente, requieren inteligencia humana. Esto incluye capacidades como el razonamiento, el aprendizaje, la percepción, la comprensión del lenguaje y la toma de decisiones. Su objetivo principal es crear agentes inteligentes que puedan operar de manera autónoma y adaptarse a entornos cambiantes.
