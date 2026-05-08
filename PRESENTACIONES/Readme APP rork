@@ -1,0 +1,108 @@
+# 🐾 Pet Tracker - Localización y Monitoreo de Mascotas
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Android-7.0%2B-green?style=for-the-badge&logo=android" alt="Android" />
+  <img src="https://img.shields.io/badge/Kotlin-blue?style=for-the-badge&logo=kotlin" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" />
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="License" />
+
+  <p align="center">
+    <strong>Rastreo y monitoreo en tiempo real para la seguridad de tus mascotas.</strong>
+    <br />
+    Pet Tracker es una aplicación Android moderna diseñada para gestionar dispositivos GPS (como el GF-07) mediante una interfaz intuitiva.
+  </p>
+</div>
+
+---
+
+## 📋 Tabla de Contenidos
+- [Características](#-características-principales)
+- [Capturas de Pantalla](#-capturas-de-pantalla)
+- [Detalles Técnicos](#-detalles-técnicos)
+- [Requisitos](#-requisitos)
+- [Configuración](#-configuración-del-desarrollador)
+- [Contribuciones](#-contribuciones)
+
+---
+
+## 🚀 Características Principales
+
+| Característica | Descripción |
+| :--- | :--- |
+| 📍 **Rastreo en Tiempo Real** | Visualización de la ubicación actual de tu mascota sobre un mapa interactivo. |
+| 🐶 **Gestión de Mascotas** | Añade perfiles detallados con nombre, raza, fotos y notas personalizadas. |
+| 💬 **Control por SMS** | Envía comandos de configuración (ubicación, batería, reinicio) al rastreador. |
+| 🔵 **Geocercas** | Configura perímetros de seguridad con alertas si tu mascota sale del área. |
+| 🗺️ **Historial** | Registro detallado de movimientos para consultar rutas y paradas anteriores. |
+| 🔋 **Estado del Dispositivo** | Monitoreo del nivel de batería y estado de conexión del hardware GPS. |
+| 🎨 **Interfaz Moderna** | Desarrollada con Jetpack Compose para una experiencia de usuario fluida. |
+
+---
+
+## 📸 Capturas de Pantalla
+
+> [!TIP]
+> *¡Próximamente! Aquí podrás ver la interfaz de usuario en acción.*
+---
+
+## 🛠️ Detalles Técnicos
+
+La aplicación sigue los principios de **Clean Architecture** y las recomendaciones actuales de Google:
+
+- **Lenguaje:** Kotlin / Java
+- **UI Framework:** Jetpack Compose (UI declarativa)
+- **Arquitectura:** MVVM (Model-View-ViewModel)
+- **Inyección de Dependencias (DI):** Koin (ligero y eficaz)
+- **Networking:** Ktor para comunicación con APIs externas
+- **Persistencia:** Room Database para almacenamiento local
+- **Comunicación:** SMS nativo para control de hardware GPS remoto
+
+---
+
+## 📱 Requisitos
+
+* **Sistema Operativo:** Android 7.0 (API 24) o superior.
+* **Hardware:** Rastreador GPS compatible con comandos SMS (ej. serie GF-07).
+* **Permisos de Aplicación:**
+    * `INTERNET`: Para cargar mapas y datos externos.
+    * `SEND_SMS` / `RECEIVE_SMS`: Para interactuar con el dispositivo GPS.
+    * `ACCESS_FINE_LOCATION`: Para mostrar tu propia ubicación en el mapa.
+
+---
+
+## 🔧 Configuración del Desarrollador
+
+Para compilar y ejecutar el proyecto localmente, sigue estos pasos:
+
+1.  **Instalar Android Studio:** Se requiere versión *Jellyfish* o superior.
+2.  **Clonar el repositorio:**
+    ```bash
+    git clone [https://github.com/tu-usuario/pet-tracker.git](https://github.com/tu-usuario/pet-tracker.git)
+    cd pet-tracker
+    ```
+3.  **Configurar API Keys:**
+    Crea o edita el archivo `Config.kt` para incluir tu clave de Google Maps:
+    ```kotlin
+    object Config {
+        const val MAPS_API_KEY = "TU_API_KEY_AQUÍ"
+    }
+    ```
+4.  **Sincronizar:** Ejecuta `Sync Project with Gradle Files` y lanza la app en un dispositivo físico (recomendado para probar SMS).
+
+---
+
+## 🤝 Contribuciones
+
+¡Las contribuciones hacen que la comunidad de código abierto sea un lugar increíble! 
+
+1. Haz un **Fork** del proyecto.
+2. Crea una **Rama** para tu mejora: `git checkout -b feature/MejoraIncreible`.
+3. Haz un **Commit** de tus cambios: `git commit -m 'feat: Añadir nueva funcionalidad'`.
+4. Haz **Push** a la rama: `git push origin feature/MejoraIncreible`.
+5. Abre un **Pull Request**.
+
+---
+
+<div align="center">
+  Desarrollado con ❤️ para la seguridad de tus mascotas.
+</div>
