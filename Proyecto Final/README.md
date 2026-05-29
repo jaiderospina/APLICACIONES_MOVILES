@@ -1,89 +1,170 @@
-
 # PetTrack 🐾
+
 Aplicación Android para rastreo de mascotas con chip GPS GF-07
 
+![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)
+![GPS](https://img.shields.io/badge/Chip-GF--07-blue)
+![Maps](https://img.shields.io/badge/Mapas-OpenStreetMap-7EBC6F)
+
+---
+
+## Características
+
+- 📍 Rastreo GPS vía SMS con chip GF-07
+- 🔔 Geocercas con alertas de alarma
+- 👤 Múltiples perfiles locales 
+- 🗺️ Historial de ubicaciones
+- 🌍 Mapas OpenStreetMap 
+
 ## Requisitos
+
 - Android 8.0+ (API 26)
 - Chip GPS GF-07 con SIM activa
 - Permisos: SMS, Ubicación, Notificaciones
 
-
-## Características
-- Rastreo GPS via SMS con chip GF-07
-- Geocercas con alertas de alarma
-- Múltiples perfiles locales con login SHA-256
-- Historial de ubicaciones
-- Mapas OpenStreetMap (sin API key)
+---
 
 ## Screenshots
+
 ### Interfaz principal
-Esta sera la pantalla que veras al abrir  la aplicacion donde podras crear tu primer usario, solo hay que poner los datos que se piden en los campos: Nombre visible, Usuario, Contraseña y confirmar contraseña, cuando vulevas a ingresar puedes crear otro usuario o ingresar tus datos de usuario para acceder a uno previamente creado.
- 
-<div align="center">
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/25bef56d5fa3be148f0f3ad7413b456a25921bc6/proyecto/imagenes/1.interfaz_principal.png" width="300" height="500" /> <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/2.%20creacion%20de%20cuenta.png" width="300" height="500" /> 
-</div> 
 
-### Pantalla inicio
-despues de crear el usuario veras esta pantalla, donde se vera informacion acerca de tus mascotas, las geocercas, alertas y otros menus para seguir configurando el seguimiento de tu mascota.
+Esta será la pantalla que verás al abrir la aplicación, donde podrás crear tu primer usuario. Solo hay que completar los campos: **Nombre visible**, **Usuario**, **Contraseña** y **Confirmar contraseña**. Cuando vuelvas a ingresar, puedes crear otro usuario o introducir tus datos para acceder a uno previamente creado.
 
 <div align="center">
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/3.%20home.png?raw=true" width="300" height="500" /> 
-</div>  
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/1.interfaz_principal.png" width="220" alt="Interfaz principal" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/2.%20creacion%20de%20cuenta.png" width="220" alt="Creación de cuenta" />
+  <br/>
+  <sub>Inicio de sesión &nbsp;&nbsp;&nbsp; Creación de cuenta</sub>
+</div>
 
-### Pantalla mascotas
-Aqui podras agregar tus mascotas, cargar una foto de tu mascota si lo deseas, completa algunas caracteristicas sobre ella, vincular un chip y si quieres que esta mascota sea visible para otros usuarios.
+---
+
+### Pantalla de inicio
+
+Después de crear el usuario verás esta pantalla, donde se mostrará información sobre tus mascotas, geocercas, alertas y otros menús para seguir configurando el seguimiento de tu mascota.
 
 <div align="center">
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/4.%20mascotas.png?raw=true" width="300" height="500" /> <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/5.%20tipos%20de%20mascotas.png?raw=true" width="300" height="500" /> <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/6.%20config%20chip%20de%20mascota.png?raw=true" width="300" height="500" /> 
-                            <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/7.%20config%20chio%20de%20mascota%202.png?raw=true" width="300" height="500" />
-</div> 
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/3.%20home.png" width="220" alt="Pantalla de inicio" />
+</div>
 
-### Pantalla inicio y editar mascota
-Asi veras la pantalla de inicio cuando agregues una mascota, si presionas sobre el nombre de tu mascota podras ver las caracteristicas de ella asi como editarlas, si hay 3 o mas usuarios elegir con cuales compartir tu mascota, ver un historial de ubicaciones y crear una geocerca
+---
+
+### Pantalla de mascotas
+
+Aquí podrás agregar tus mascotas, cargar una foto, completar algunas características sobre ellas, vincular un chip y elegir si quieres que sean visibles para otros usuarios.
 
 <div align="center">
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/8.%20home%20con%201%20mascota.png?raw=true" width="300" height="500" /> <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/9.%20mascota(max).png?raw=true" width="300" height="500" /> <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/10.%20mascota(max)%202.png?raw=true" width="300" height="500" />
-</div> 
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/4.%20mascotas.png" width="220" alt="Mascotas" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/5.%20tipos%20de%20mascotas.png" width="220" alt="Tipos de mascotas" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/6.%20config%20chip%20de%20mascota.png" width="220" alt="Configuración de chip" />
+  <br/>
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/7.%20config%20chio%20de%20mascota%202.png" width="220" alt="Configuración de chip 2" />
+  <br/>
+  <sub>Agregar mascota &nbsp;&nbsp;&nbsp; Tipo de mascota &nbsp;&nbsp;&nbsp; Configuración de chip</sub>
+</div>
 
-### Historial, compartir mascota y sus geocercas
-Al entrar al historial podras ver ubicaciones recientes de tu mascota, en compartir mascota puedes elegir para que usuarios sera visible tu mascota y en geocercas veras las que hyas configurado y podras activarlas o desactivarlas.
+---
 
- <div align="center">
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/11.%20compartir%20mascota.png?raw=true" width="300" height="500" />
-     <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/12.%20historial%20max.png?raw=true" width="300" height="500" /> <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/13.%20geocercas.png?raw=true" width="300" height="500" />
-</div> 
+### Inicio con mascota y edición
+
+Así verás la pantalla de inicio una vez que hayas agregado una mascota. Al presionar sobre el nombre de tu mascota podrás ver sus características y editarlas, compartirla con otros usuarios (si hay 3 o más), consultar el historial de ubicaciones y crear una geocerca.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/8.%20home%20con%201%20mascota.png" width="220" alt="Inicio con mascota" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/9.%20mascota(max).png" width="220" alt="Detalle de mascota" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/10.%20mascota(max)%202.png" width="220" alt="Detalle de mascota 2" />
+  <br/>
+  <sub>Inicio &nbsp;&nbsp;&nbsp; Detalle de mascota &nbsp;&nbsp;&nbsp; Opciones</sub>
+</div>
+
+---
+
+### Historial, compartir mascota y geocercas
+
+En el historial podrás ver las ubicaciones recientes de tu mascota. En compartir mascota puedes elegir qué usuarios podrán verla. En geocercas verás las que hayas configurado y podrás activarlas o desactivarlas.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/11.%20compartir%20mascota.png" width="220" alt="Compartir mascota" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/12.%20historial%20max.png" width="220" alt="Historial" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/13.%20geocercas.png" width="220" alt="Geocercas" />
+  <br/>
+  <sub>Compartir mascota &nbsp;&nbsp;&nbsp; Historial &nbsp;&nbsp;&nbsp; Geocercas</sub>
+</div>
+
+---
 
 ### Crear una geocerca
-Para crear una geocerca puedes hacerlo desde las opciones de tu mascota o en el menu de geocercas y despues seleccionas para que mascota sera; primero podras elegir para que mascota, luego el nombre de la geocerca, puedes elegir la ubicacion de forma manual en el mapa, buscarla por direccion o usar tu ubicacion actual, adaptar el radio de la geocerca segun tu necesidad, si quieres recibir la alerta cuando la mascota entre y salga de la geocerca o solo una de ellas, por ultimo puedes activarla antes de guardarla.
-En el menu de geocercas podras ver las que esten activas y editarlas o eliminarlas
+
+Puedes crear una geocerca desde las opciones de tu mascota o desde el menú de geocercas. El proceso es el siguiente:
+
+1. Selecciona la mascota a la que aplicará
+2. Asigna un nombre a la geocerca
+3. Elige la ubicación manualmente en el mapa, búscala por dirección o usa tu ubicación actual
+4. Ajusta el radio según tu necesidad
+5. Configura si recibirás alerta al entrar, al salir o en ambos casos
+6. Actívala antes de guardar
+
+Desde el menú de geocercas podrás ver las activas, editarlas o eliminarlas.
 
 <div align="center">
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/16.%20tipos%20de%20alerta%20de%20la%20geocerca.png?raw=true" width="300" height="500" />
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/14.%20creacion%20geocea%20para%20max.png?raw=true" width="300" height="500" /> 
-    <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/15.%20creacion%20de%20geocerca%20para%20max%202.png?raw=true" width="300" height="500" /> 
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/17.%20geocercas%20activas.png?raw=true" width="300" height="500" />
-</div> 
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/14.%20creacion%20geocea%20para%20max.png" width="220" alt="Creación de geocerca" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/15.%20creacion%20de%20geocerca%20para%20max%202.png" width="220" alt="Creación de geocerca 2" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/16.%20tipos%20de%20alerta%20de%20la%20geocerca.png" width="220" alt="Tipos de alerta" />
+  <br/>
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/17.%20geocercas%20activas.png" width="220" alt="Geocercas activas" />
+  <br/>
+  <sub>Crear geocerca &nbsp;&nbsp;&nbsp; Configurar radio &nbsp;&nbsp;&nbsp; Tipo de alerta &nbsp;&nbsp;&nbsp; Geocercas activas</sub>
+</div>
 
-### Alertas y geocercas activas 
-En el menu de alertas podras ver las las alertas que ha generado tu mascota y en el menu de geocercas estaran todas las creadas por el usuario y a que mascota pertenecen
+---
 
- <div align="center">
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/18.%20alertas.png?raw=true" width="300" height="500" /> <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/17.%20geocercas%20activas.png?raw=true" width="300" height="500" />
-</div> 
+### Alertas y geocercas activas
 
-### Gestion de perfiles 
-En el menu perfil podras editar tu perfil, cambiar de perfiln o controlar un chip 
+En el menú de alertas podrás ver las notificaciones generadas por tu mascota. En el menú de geocercas aparecerán todas las creadas por el usuario y a qué mascota pertenece cada una.
 
- <div align="center">
-     <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/19.%20perfil.png?raw=true" width="300" height="500" />  
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/20.%20cambiar%20de%20perfil.png?raw=true" width="300" height="500" />
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/21.%20gestion%20de%20perfiles.png?raw=true" width="300" height="500" />
-</div> 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/18.%20alertas.png" width="220" alt="Alertas" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/17.%20geocercas%20activas.png" width="220" alt="Geocercas activas" />
+  <br/>
+  <sub>Alertas &nbsp;&nbsp;&nbsp; Geocercas activas</sub>
+</div>
 
-### Control de chip 
-En el apartado de control de chip puedes configurar los requerimientos del chip, asignarlo a una mascota y enviar comandos como: ubicacion, detener,reiniciar o comandos manuales.
+---
 
- <div align="center">
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/23.%20control%20gf%2007%202.png?raw=true" width="300" height="500" />
-  <img src="https://github.com/camilo1210c-design/pruebas-/blob/main/proyecto/imagenes/22.%20control%20gf%2007.png?raw=true" width="300" height="500" />  
-</div> 
+### Gestión de perfiles
+
+En el menú de perfil podrás editar tu información, cambiar de perfil o controlar un chip.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/19.%20perfil.png" width="220" alt="Perfil" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/20.%20cambiar%20de%20perfil.png" width="220" alt="Cambiar de perfil" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/21.%20gestion%20de%20perfiles.png" width="220" alt="Gestión de perfiles" />
+  <br/>
+  <sub>Perfil &nbsp;&nbsp;&nbsp; Cambiar perfil &nbsp;&nbsp;&nbsp; Gestión de perfiles</sub>
+</div>
+
+---
+
+### Control de chip
+
+En el apartado de control de chip puedes configurar los parámetros del chip, asignarlo a una mascota y enviar comandos como: obtener ubicación, detener, reiniciar o enviar comandos manuales.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/22.%20control%20gf%2007.png" width="220" alt="Control GF-07" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/camilo1210c-design/pruebas-/main/proyecto/imagenes/23.%20control%20gf%2007%202.png" width="220" alt="Control GF-07 2" />
+  <br/>
+  <sub>Control de chip GF-07</sub>
+</div>
