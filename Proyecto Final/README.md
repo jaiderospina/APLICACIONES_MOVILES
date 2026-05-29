@@ -168,3 +168,43 @@ En el apartado de control de chip puedes configurar los parámetros del chip, as
   <br/>
   <sub>Control de chip GF-07</sub>
 </div>
+
+
+## 📋 Requerimientos del Sistema
+
+### ⚙️ Funcionales (RF)
+
+| ID | Descripción |
+|----|-------------|
+| **RF1** | Emparejamiento seguro del smartphone como "Número Maestro". |
+| **RF2** | Rastreo bajo demanda con actualización en mapa de Google Maps. |
+| **RF3** | Telemetría en tiempo real (Batería, Señal GSM). |
+| **RF4** | Interceptación y parseo automático de SMS mediante Regex. |
+| **RF5** | Historial de rutas almacenado localmente con Room Database. |
+
+### 🔒 No Funcionales (RNF)
+
+| ID | Descripción |
+|----|-------------|
+| **RNF1** | Abstracción total de la mensajería SMS para el usuario final. |
+| **RNF2** | Gestión de reintentos y timeouts ante latencia de red 2G. |
+| **RNF3** | Bajo consumo de recursos en segundo plano. |
+| **RNF4** | Persistencia de servicios de escucha (BroadcastReceivers). |
+
+---
+
+## 📱 Experiencia de Usuario (UX)
+
+La aplicación oculta la complejidad del hardware mediante un flujo transparente:
+
+```mermaid
+flowchart LR
+    A[🔗 Vínculo] --> B[🔍 Consulta]
+    B --> C[🗺️ Visualización]
+    C --> D[🔔 Alertas]
+```
+
+1. **🔗 Vínculo** — El usuario registra el número del rastreador.
+2. **🔍 Consulta** — Al pulsar "Rastrear", la app gestiona el SMS silencioso.
+3. **🗺️ Visualización** — El enlace LBS recibido se traduce automáticamente a coordenadas en el mapa integrado.
+4. **🔔 Alertas** — Notificaciones push inmediatas ante eventos de sonido o batería baja.
