@@ -464,6 +464,140 @@ También es posible que la combinación de comandos inválidos o no autorizados 
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/8e6f04fc-47e2-471a-9c82-52fd7314c99d" />
 
+# 🔵 Smart Tag — Rastreador Bluetooth BLE
+
+> Documentación técnica y de uso del dispositivo Smart Tag, un rastreador compacto basado en tecnología **Bluetooth Low Energy (BLE)** para localización de objetos, llaves, bolsos y mascotas en distancias cortas.
+
+---
+
+## 📦 Descripción General
+
+El **Smart Tag** es un dispositivo de rastreo de proximidad que se conecta a un teléfono celular mediante Bluetooth. A diferencia de los trackers GPS, **no requiere SIM ni datos móviles** — funciona a través de la red de dispositivos Bluetooth cercanos (crowd-sourced network) o de forma directa con la app del fabricante.
+
+Es ideal para no perder objetos cotidianos como llaves, billeteras, mochilas o para ubicar mascotas dentro de un radio cercano.
+
+---
+
+## 🔧 Especificaciones Técnicas
+
+| Parámetro | Detalle |
+|-----------|---------|
+| **Tecnología** | Bluetooth Low Energy (BLE 5.0 / 4.2 según modelo) |
+| **Alcance interior** | 10 – 30 metros |
+| **Alcance exterior** | Hasta ~100 metros (línea de visión directa) |
+| **Batería** | CR2032 (botón) reemplazable / batería recargable según modelo |
+| **Duración batería** | 6 – 12 meses en uso normal |
+| **Conectividad** | Bluetooth únicamente (sin SIM, sin WiFi, sin GPS) |
+| **Compatibilidad** | Android / iOS (según app del fabricante) |
+| **Peso** | ~8 – 15 gramos |
+| **Resistencia** | IP54 – IP67 según modelo (resistente a salpicaduras / agua) |
+| **Alertas** | Sonido integrado (buzzer), notificaciones push en app |
+| **Frecuencia BLE** | 2.4 GHz |
+
+---
+
+## 📱 Funciones de la App
+
+| Función | Descripción |
+|---------|-------------|
+| 🔊 **Activar sonido** | Hace sonar el tag para localizarlo físicamente |
+| 📍 **Última ubicación conocida** | Muestra en mapa el último punto donde el celular lo detectó |
+| 🔔 **Alerta de separación** | Notifica cuando el tag sale del rango Bluetooth |
+| 🔍 **Radar de proximidad** | Indicador visual de qué tan cerca está el tag |
+| 🌐 **Red colaborativa** | Otros usuarios de la app ayudan a localizar el tag sin saberlo |
+| 🔋 **Nivel de batería** | Muestra el estado de la batería del tag en la app |
+
+---
+
+## 📡 Cómo Funciona — Tecnología BLE
+
+
+
+1. El tag emite una señal BLE de forma continua cada pocos segundos.
+2. Tu celular la detecta si está dentro del rango y actualiza la ubicación en la app.
+3. Si el tag está fuera de tu alcance, **otros teléfonos con la misma app** pueden detectarlo y reportar su posición de forma anónima (red crowd-sourced).
+4. Puedes hacer sonar el tag remotamente desde la app para encontrarlo.
+
+> ⚠️ La red colaborativa solo funciona si hay otros usuarios de la misma plataforma cerca del tag (ej. Apple AirTag usa la red de iPhones; Samsung Galaxy SmartTag usa la red de dispositivos Galaxy).
+
+---
+
+## 📏 Rangos de Detección
+
+| Entorno | Alcance estimado | Factores que afectan |
+|---------|-----------------|---------------------|
+| **Interior (casa/oficina)** | 10 – 30 m | Paredes, interferencia WiFi, metales |
+| **Exterior (campo abierto)** | 60 – 100 m | Obstáculos, densidad de señales BLE |
+| **Zona urbana concurrida** | 15 – 40 m | Interferencia de otros dispositivos BLE |
+| **Vehículo** | 5 – 20 m | Carrocería metálica atenúa la señal |
+
+---
+
+## 🐾 Uso en Mascotas
+
+Puede colocarse en el collar de perros o gatos. Consideraciones importantes:
+
+- ✅ **Ideal para:** localizar mascota dentro del hogar o patio
+- ✅ **Funciona bien si:** la mascota está en un radio de 30–50 metros
+- ⚠️ **Limitación:** si la mascota escapa lejos, solo ubica la **última posición conocida** (no rastreo en tiempo real como GPS)
+- ⚠️ **Recomendación de peso:** usar en mascotas de más de 4 kg para no incomodarlas
+- ❌ **No reemplaza** un collar GPS para mascotas que escapan frecuentemente
+
+---
+
+## ⚖️ Diferencias con GPS Tracker GF-07
+
+| Característica | Smart Tag (BLE) | GF-07 (GPS/GSM) |
+|----------------|-----------------|-----------------|
+| **Tecnología** | Bluetooth BLE | GSM + GPS |
+| **Requiere SIM** | ❌ No | ✅ Sí |
+| **Requiere datos móviles** | ❌ No | ✅ Sí (GPRS) |
+| **Alcance de rastreo** | 10 – 100 m | Ilimitado (cobertura GSM) |
+| **Localización en tiempo real** | ❌ No | ✅ Sí |
+| **Precisión de ubicación** | Aproximada (Bluetooth) | Alta (GPS) |
+| **Duración de batería** | 6 – 12 meses | 6 – 24 horas |
+| **Tamaño / peso** | Muy compacto (~10g) | Compacto (~25g) |
+| **Costo operativo** | Gratuito | Plan de datos / SIM |
+| **Uso ideal** | Objetos, llaves, mascotas en casa | Vehículos, personas, mascotas en exterior |
+| **Funciona sin celular cerca** | ❌ No (necesita red BLE) | ✅ Sí |
+| **Comandos SMS** | ❌ No aplica | ✅ Sí |
+
+---
+
+## 🔋 Guía de Batería
+
+| Acción | Impacto en batería |
+|--------|--------------------|
+| Alertas frecuentes activadas | Mayor consumo |
+| Intervalo de emisión BLE corto | Mayor consumo |
+| Uso de buzzer frecuentemente | Mayor consumo |
+| Modo de bajo consumo activado | Menor consumo, menor precisión |
+
+> 💡 Cuando la batería está baja, la app notifica automáticamente. En modelos con CR2032, reemplazar la pila cuesta menos de $2.000 COP.
+
+---
+
+## ⚙️ Configuración Inicial
+
+1. Descargar la app oficial del fabricante (ej. *SmartThings*, *Tile*, *Apple Find My*, etc.)
+2. Activar **Bluetooth** en el celular
+3. Abrir la app y seleccionar **"Agregar dispositivo"**
+4. Mantener el tag cerca del celular hasta que la app lo detecte
+5. Asignar un nombre al tag (ej. "Llaves", "Mochila", "Firulais")
+6. Activar permisos de ubicación y notificaciones en la app
+
+---
+
+## 🛠️ Troubleshooting
+
+| Problema | Causa probable | Solución |
+|----------|---------------|----------|
+| App no detecta el tag | Bluetooth apagado o fuera de rango | Activar BT y acercarse al tag |
+| Sonido no funciona | Batería baja o tag en modo silencioso | Reemplazar batería |
+| Última ubicación desactualizada | No hay usuarios de la red cerca | Limitación de la tecnología BLE |
+| Tag no aparece en la app | No emparejado o reset necesario | Quitar y reinsertar la pila para reiniciar |
+| Notificaciones de separación falsas | Rango muy sensible configurado | Ajustar sensibilidad en ajustes de la app |
+
 
 ## 📱 Experiencia de Usuario (UX)
 
