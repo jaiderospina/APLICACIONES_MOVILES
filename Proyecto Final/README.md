@@ -218,6 +218,8 @@ En el apartado de control de chip puedes configurar los parámetros del chip, as
 | **País de fabricación** | China |
 
 ---
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/12ada4f7-a37e-4c43-971b-0b5ded7e58c5" />
+
 
 ## 📋 Tabla de Comandos SMS
 
@@ -263,8 +265,12 @@ El dispositivo responde automáticamente al número remitente con la informació
 | `gprs#on#` | Activa la transmisión de datos GPRS | Confirmación |
 | `gprs#1#` | Activa GPRS (variante alternativa) | Confirmación |
 | `GPS,ON` | Activa GPS (formato alternativo con coma) | Confirmación |
+<img width="350" height="450" alt="image" src="https://github.com/user-attachments/assets/447dd187-af75-4939-8a7a-0261d6160704" />
 
 ---
+
+<img width="350" height="450" alt="image" src="https://github.com/user-attachments/assets/ec8f09bb-ba16-4477-b171-e326e9b3599f" />
+
 
 ### 🌐 Configuración APN (GPRS / Internet)
 
@@ -295,6 +301,7 @@ APN Auto Set:OFF/ON
 | `SENSOR#ON#` | Activa el sensor de vibración | `SENSOR:10,30,1` |
 
 > ⚠️ El comando `000` (desarmado de vibración) requiere que el número remitente esté registrado como SOS, de lo contrario: `Error! Please first enable vibration alarm function, and then perform the operation.`
+<img width="350" height="450" alt="image" src="https://github.com/user-attachments/assets/1459d539-3121-41a5-903f-0e60ebc11249" />
 
 ---
 
@@ -307,6 +314,7 @@ APN Auto Set:OFF/ON
 | `DISARM,000000#` | Intento de desarmado con código alternativo | Según configuración |
 | `000` | Desarmado rápido (solo desde número SOS) | Confirmación o error de autorización |
 | `666` | Comando de modo/estado alternativo | Variable |
+<img width="350" height="450" alt="image" src="https://github.com/user-attachments/assets/77510936-255f-419c-8f20-452d405ac923" />
 
 ---
 
@@ -346,6 +354,7 @@ CENTER: [número registrado o vacío]
 | `Error! Only SOS phone numbers are allowed to disarm.` | Solo números SOS pueden desarmar |
 | `Error! Please first enable vibration alarm function, and then perform the operation.` | Función de vibración no activada previamente |
 | `The terminal will restart after 60s!` | Reinicio del dispositivo en progreso |
+<img width="350" height="450" alt="image" src="https://github.com/user-attachments/assets/6901a07b-cec9-4a2e-b591-2afc4d28f709" />
 
 ---
 
@@ -452,6 +461,9 @@ También es posible que la combinación de comandos inválidos o no autorizados 
 | Recepción de llamadas | ❌ No contesta |
 | Recuperación lograda | ❌ No fue posible |
 | Estado general | **🔒 Bloqueado / Inutilizable** |
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/8e6f04fc-47e2-471a-9c82-52fd7314c99d" />
+
 
 ## 📱 Experiencia de Usuario (UX)
 
