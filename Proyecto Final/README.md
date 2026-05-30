@@ -168,28 +168,70 @@ En el apartado de control de chip puedes configurar los parámetros del chip, as
   <br/>
   <sub>Control de chip GF-07</sub>
 </div>
+---
+
+## 🛠️ Requisitos del Ecosistema
+
+Para garantizar una experiencia óptima, asegúrate de cumplir con los siguientes estándares:
+
+| Componente | Requisito Mínimo |
+| :--- | :--- |
+| **📱 Sistema Operativo** | Android 8.0+ (Oreo) o superior |
+| **📡 Hardware** | Rastreador GPS GF-07 con SIM activa |
+| **🔑 Permisos** | SMS (Lectura/Envío), Ubicación y Notificaciones |
+| **🗺️ Mapas** | Conexión a internet para OpenStreetMap |
+
+---
+
+## ✨ Funcionalidades Principales
+
+### 👤 Gestión de Perfiles y Seguridad
+*   **Multi-Usuario Local:** Crea y gestiona múltiples perfiles con credenciales independientes en un mismo dispositivo.
+*   **Privacidad de Mascotas:** Elige si el perfil de tu mascota es público para otros usuarios o privado.
+
+### 📍 Rastreo Inteligente
+*   **Localización en Tiempo Real:** Visualiza la posición exacta sobre mapas de **OpenStreetMap**.
+*   **Historial de Rutas:** Accede a un registro detallado de los movimientos recientes de tu mascota para mayor tranquilidad.
+
+### 🛡️ Sistema de Geocercas (Safe Zones)
+*   **Perímetros Personalizados:** Crea zonas seguras por dirección o ubicación actual.
+*   **Radio Ajustable:** Configura el área de cobertura según el entorno (casa, parque, ciudad).
+*   **Alertas Duales:** Recibe notificaciones instantáneas tanto al **entrar** como al **salir** de la zona segura.
+
+---
+
+## 🎮 Flujo de Experiencia de Usuario (UX)
+
+### 1️⃣ Inicio y Configuración
+Al abrir la app, el usuario es recibido por una interfaz limpia donde puede:
+*   Crear una cuenta local con **Nombre, Usuario y Contraseña**.
+*   Acceder a perfiles previamente creados para retomar el seguimiento.
+
+### 2️⃣ Registro de la Mascota
+El proceso de "Onboarding" de la mascota incluye:
+*   Carga de fotografía y características físicas.
+*   **Vinculación del Chip:** Ingreso del número de la SIM del GF-07 para establecer la comunicación.
+
+### 3️⃣ Control Total del Hardware
+Desde el menú de **Control de Chip**, el usuario tiene el mando absoluto:
+*   🔄 **Reiniciar:** Reinicio remoto del dispositivo.
+*   🛑 **Detener:** Pausar el rastreo para ahorrar batería.
+*   📍 **Ubicación:** Forzar una actualización inmediata de posición.
+*   ⌨️ **Comandos Manuales:** Terminal para usuarios avanzados.
+
+### 4️⃣ Gestión de Alertas
+El centro de notificaciones centraliza todos los eventos críticos, permitiendo al usuario reaccionar rápidamente ante cualquier anomalía detectada por el sistema de geocercas o el estado del hardware.
+
+---
+
+## 📊 Arquitectura de Datos
+
+La aplicación utiliza una base de datos local (**Room Database**) para asegurar que la información de tus mascotas y sus rutas esté siempre disponible, incluso sin conexión a internet momentánea.
+
+---
+*Desarrollado con ❤️ para la seguridad de nuestras mascotas.*
 
 
-## 📋 Requerimientos del Sistema
-
-### ⚙️ Funcionales (RF)
-
-| ID | Descripción |
-|----|-------------|
-| **RF1** | Emparejamiento seguro del smartphone como "Número Maestro". |
-| **RF2** | Rastreo bajo demanda con actualización en mapa de Google Maps. |
-| **RF3** | Telemetría en tiempo real (Batería, Señal GSM). |
-| **RF4** | Interceptación y parseo automático de SMS mediante Regex. |
-| **RF5** | Historial de rutas almacenado localmente con Room Database. |
-
-### 🔒 No Funcionales (RNF)
-
-| ID | Descripción |
-|----|-------------|
-| **RNF1** | Abstracción total de la mensajería SMS para el usuario final. |
-| **RNF2** | Gestión de reintentos y timeouts ante latencia de red 2G. |
-| **RNF3** | Bajo consumo de recursos en segundo plano. |
-| **RNF4** | Persistencia de servicios de escucha (BroadcastReceivers). |
 
 ---
 
